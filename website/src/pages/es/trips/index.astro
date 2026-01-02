@@ -1,0 +1,180 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PostCard from '../../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+// Try Spanish first, fall back to English
+let allTripsRaw;
+try {
+  allTripsRaw = await getCollection('trips_es');
+  if (allTripsRaw.length === 0) {
+    allTripsRaw = await getCollection('trips');
+  }
+} catch {
+  allTripsRaw = await getCollection('trips');
+}
+
+const allTrips = allTripsRaw.filter(trip => trip.data.publish !== false);
+
+const sortedTrips = allTrips.sort((a, b) => {
+  const getDateFromId = (id: string) => {
+    const match = id.match(/(\d{4})_(\d{2})_(\d{2})/);
+    if (match) {
+      return new Date(parseInt(match[1]), parseInt(match[2]) - 1, parseInt(match[3]));
+    }
+    return new Date(0);
+  };
+  return getDateFromId(b.id).getTime() - getDateFromId(a.id).getTime();
+});
+
+const getFolderFromId = (id: string) => {
+  const parts = id.split('/');
+  return parts[0];
+};
+
+const tripsByYear = sortedTrips.reduce((acc, trip) => {
+  const match = trip.id.match(/^(\d{4})/);
+  const year = match ? match[1] : 'Otros';
+  if (!acc[year]) acc[year] = [];
+  acc[year].push(trip);
+  return acc;
+}, {} as Record<string, typeof sortedTrips>);
+
+const years = Object.keys(tripsByYear).sort((a, b) => parseInt(b) - parseInt(a));
+
+const searchData = sortedTrips.map(trip => ({
+  slug: trip.data.trip_id,
+  title: trip.data.title.toLowerCase(),
+  countries: trip.data.countries.map(c => c.toLowerCase()).join(' '),
+  cities: (trip.data.cities || []).map(c => c.toLowerCase()).join(' '),
+  tags: (trip.data.tags || []).map(t => t.toLowerCase()).join(' '),
+}));
+---
+
+<BaseLayout title="Todos los Viajes | Crónicas Viajeras" lang="es">
+  <div class="container">
+    <section class="site-title">
+      <h1>Todos los Viajes</h1>
+      <p class="tagline">{allTrips.length} aventuras y contando</p>
+    </section>
+
+    <section class="search-section">
+      <div class="search-container">
+        <input 
+          type="text" 
+          class="search-input" 
+          placeholder="Filtrar por país, ciudad, etiqueta o palabra clave..."
+          id="search-input"
+        />
+      </div>
+      <p class="search-results" id="search-results"></p>
+    </section>
+
+    <div id="trips-container">
+      {years.map((year) => (
+        <section class="year-section" data-year={year}>
+          <div class="section-header">
+            <h2>{year}</h2>
+            <span class="trip-count">{tripsByYear[year].length} viajes</span>
+          </div>
+          
+          <div class="posts-grid">
+            {tripsByYear[year].map((trip) => (
+              <div class="post-card-wrapper" data-slug={trip.data.trip_id}>
+                <PostCard 
+                  title={trip.data.title}
+                  slug={trip.data.trip_id}
+                  countries={trip.data.countries}
+                  dates={trip.data.date_from === trip.data.date_to ? trip.data.date_from : `${trip.data.date_from} al ${trip.data.date_to}`}
+                  duration={trip.data.duration}
+                  coverImage={trip.data.main_image}
+                  coverImageCrop={trip.data.main_image_crop}
+                  folder={getFolderFromId(trip.id)}
+                  tags={trip.data.tags || []}
+                  basePath="/es"
+                />
+              </div>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+    
+    <div id="no-results" class="no-results" style="display: none;">
+      <p>No se encontraron viajes que coincidan con tu búsqueda.</p>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .year-section { margin-bottom: 3rem; }
+  .trip-count { font-family: var(--font-heading); font-size: 0.8rem; color: var(--color-text-muted); }
+  .search-section { margin-bottom: 2rem; }
+  .search-container { max-width: 500px; margin: 0 auto; }
+  .search-input { width: 100%; padding: 1rem 1.5rem; font-family: var(--font-body); font-size: 1rem; border: 1px solid var(--color-border); border-radius: 50px; outline: none; transition: border-color 0.2s ease, box-shadow 0.2s ease; }
+  .search-input:focus { border-color: var(--color-accent); box-shadow: 0 0 0 3px rgba(197, 164, 126, 0.1); }
+  .search-results { text-align: center; font-family: var(--font-heading); font-size: 0.8rem; color: var(--color-text-muted); margin-top: 0.75rem; min-height: 1.2rem; }
+  .no-results { text-align: center; padding: 3rem; color: var(--color-text-muted); }
+  .post-card-wrapper { transition: opacity 0.2s ease; }
+  .post-card-wrapper.hidden { display: none; }
+  .year-section.hidden { display: none; }
+</style>
+
+<script define:vars={{ searchData }}>
+  const searchInput = document.getElementById('search-input');
+  const searchResults = document.getElementById('search-results');
+  const noResults = document.getElementById('no-results');
+  const yearSections = document.querySelectorAll('.year-section');
+  
+  const urlParams = new URLSearchParams(window.location.search);
+  const initialQuery = urlParams.get('search');
+  if (initialQuery) {
+    searchInput.value = initialQuery;
+    performSearch(initialQuery);
+  }
+  
+  searchInput.addEventListener('input', (e) => {
+    const query = e.target.value.trim().toLowerCase();
+    performSearch(query);
+  });
+  
+  function performSearch(query) {
+    if (!query) {
+      document.querySelectorAll('.post-card-wrapper').forEach(el => el.classList.remove('hidden'));
+      yearSections.forEach(section => section.classList.remove('hidden'));
+      searchResults.textContent = '';
+      noResults.style.display = 'none';
+      return;
+    }
+    
+    const matchingSlugs = new Set();
+    searchData.forEach(trip => {
+      const searchText = `${trip.title} ${trip.countries} ${trip.cities} ${trip.tags}`;
+      if (searchText.includes(query)) matchingSlugs.add(trip.slug);
+    });
+    
+    let visibleCount = 0;
+    document.querySelectorAll('.post-card-wrapper').forEach(el => {
+      if (matchingSlugs.has(el.dataset.slug)) {
+        el.classList.remove('hidden');
+        visibleCount++;
+      } else {
+        el.classList.add('hidden');
+      }
+    });
+    
+    yearSections.forEach(section => {
+      const visibleCards = section.querySelectorAll('.post-card-wrapper:not(.hidden)');
+      section.classList.toggle('hidden', visibleCards.length === 0);
+    });
+    
+    if (visibleCount > 0) {
+      searchResults.textContent = `Se encontraron ${visibleCount} viaje${visibleCount > 1 ? 's' : ''} para "${query}"`;
+      noResults.style.display = 'none';
+    } else {
+      searchResults.textContent = '';
+      noResults.style.display = 'block';
+    }
+  }
+</script>
+

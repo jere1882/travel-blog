@@ -1,0 +1,64 @@
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+.astro/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE
+.idea/
+.vscode/
+
+# ===========================================
+# IMAGES - These are stored in Cloudinary CDN
+# ===========================================
+# Exclude all image files from travel_archive folders
+travel_atlas/travel_archive/*/*.jpg
+travel_atlas/travel_archive/*/*.jpeg
+travel_atlas/travel_archive/*/*.png
+travel_atlas/travel_archive/*/*.heic
+travel_atlas/travel_archive/*/*.JPG
+travel_atlas/travel_archive/*/*.JPEG
+travel_atlas/travel_archive/*/*.PNG
+travel_atlas/travel_archive/*/*.HEIC
+
+# Spanish archive images (symlinks or copies)
+travel_atlas/travel_archive_es/*/*.jpg
+travel_atlas/travel_archive_es/*/*.jpeg
+travel_atlas/travel_archive_es/*/*.png
+travel_atlas/travel_archive_es/*/*.heic
+travel_atlas/travel_archive_es/*/*.JPG
+travel_atlas/travel_archive_es/*/*.JPEG
+travel_atlas/travel_archive_es/*/*.PNG
+travel_atlas/travel_archive_es/*/*.HEIC
+
+# Website public images symlink
+website/public/images
+
+# Cache files
+*.pyc
+__pycache__/
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Obsidian config
+.obsidian/
+
+# Translation cache (regenerated)
+.translation_cache.json
+
+# Base files (canvas)
+*.base

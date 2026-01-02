@@ -1,0 +1,145 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import WorldMap from '../../components/WorldMap.tsx';
+import { getCollection } from 'astro:content';
+
+// Try to get Spanish translations, fall back to English
+let allTripsRaw;
+try {
+  allTripsRaw = await getCollection('trips_es');
+  if (allTripsRaw.length === 0) {
+    // No Spanish translations yet, use English
+    allTripsRaw = await getCollection('trips');
+  }
+} catch {
+  // Collection doesn't exist yet, use English
+  allTripsRaw = await getCollection('trips');
+}
+
+const allTrips = allTripsRaw.filter(trip => trip.data.publish !== false);
+
+// Parse dates and sort
+const sortedTrips = allTrips.sort((a, b) => {
+  const getDateFromId = (id: string) => {
+    const match = id.match(/(\d{4})_(\d{2})_(\d{2})/);
+    if (match) {
+      return new Date(parseInt(match[1]), parseInt(match[2]) - 1, parseInt(match[3]));
+    }
+    return new Date(0);
+  };
+  return getDateFromId(b.id).getTime() - getDateFromId(a.id).getTime();
+});
+
+// Get latest 6 trips for homepage
+const latestTrips = sortedTrips.slice(0, 6);
+
+// Extract folder name from id
+const getFolderFromId = (id: string) => {
+  const parts = id.split('/');
+  return parts[0];
+};
+
+// Build countries data for the map
+const countriesWithTrips: Record<string, { name: string; tripCount: number; trips: Array<{ title: string; tripId: string }> }> = {};
+
+allTrips.forEach(trip => {
+  trip.data.countries.forEach(country => {
+    if (!countriesWithTrips[country]) {
+      countriesWithTrips[country] = {
+        name: country,
+        tripCount: 0,
+        trips: [],
+      };
+    }
+    countriesWithTrips[country].tripCount++;
+    countriesWithTrips[country].trips.push({
+      title: trip.data.title,
+      tripId: trip.data.trip_id,
+    });
+  });
+});
+
+const uniqueCountries = Object.keys(countriesWithTrips).length;
+---
+
+<BaseLayout title="Crónicas Viajeras" lang="es">
+  <div class="container">
+    <!-- Site Title -->
+    <section class="site-title">
+      <h1>Crónicas Viajeras</h1>
+      <p class="tagline">10 Años de Historias desde Cada Rincón del Mundo — Escrito por Jeremías Rodríguez</p>
+    </section>
+
+    <!-- Interactive World Map -->
+    <section class="map-section-interactive">
+      <WorldMap client:load countriesWithTrips={countriesWithTrips} basePath="/es" />
+      <p class="map-hint">↑ Haz clic en los países destacados para explorar los viajes ↑</p>
+      <div class="map-stats">
+        <span>{allTrips.length} viajes</span>
+        <span class="separator">·</span>
+        <span>{uniqueCountries} países</span>
+      </div>
+    </section>
+
+    <!-- Latest Posts -->
+    <section class="latest-posts">
+      <div class="section-header">
+        <h2>Últimas Publicaciones</h2>
+        <a href="/es/trips">Ver Todas →</a>
+      </div>
+      
+      <div class="posts-grid">
+        {latestTrips.map((trip) => (
+          <PostCard 
+            title={trip.data.title}
+            slug={trip.data.trip_id}
+            countries={trip.data.countries}
+            dates={trip.data.date_from === trip.data.date_to ? trip.data.date_from : `${trip.data.date_from} al ${trip.data.date_to}`}
+            duration={trip.data.duration}
+            coverImage={trip.data.main_image}
+            coverImageCrop={trip.data.main_image_crop}
+            folder={getFolderFromId(trip.id)}
+            tags={trip.data.tags || []}
+            basePath="/es"
+          />
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .map-section-interactive {
+    margin: 2rem 0 var(--section-spacing);
+  }
+  
+  .map-stats {
+    text-align: center;
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-text-light);
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  .map-stats .separator {
+    margin: 0 0.75rem;
+    color: var(--color-text-muted);
+  }
+  
+  .map-hint {
+    text-align: center;
+    font-family: var(--font-heading);
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    margin: 1rem 0 0.5rem;
+  }
+  
+</style>
+

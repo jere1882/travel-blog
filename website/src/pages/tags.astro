@@ -1,0 +1,96 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+// Get all published trips
+const tripsRaw = await getCollection('trips');
+const trips = tripsRaw.filter(trip => trip.data.publish !== false);
+
+// Count tags
+const tagCounts: Record<string, number> = {};
+
+trips.forEach(trip => {
+  const tags = trip.data.tags || [];
+  tags.forEach(tag => {
+    tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+  });
+});
+
+// Sort by count (descending), then alphabetically
+const sortedTags = Object.entries(tagCounts).sort((a, b) => {
+  if (b[1] !== a[1]) return b[1] - a[1];
+  return a[0].localeCompare(b[0]);
+});
+
+const totalTags = sortedTags.length;
+---
+
+<BaseLayout title="All Tags | Jere's Travel Chronicles">
+  <div class="container">
+    <section class="site-title">
+      <h1>All Tags</h1>
+      <p class="tagline">{totalTags} tags across {trips.length} trips</p>
+    </section>
+
+    <div class="tags-grid">
+      {sortedTags.map(([tag, count]) => (
+        <a href={`/tag/${tag.toLowerCase().replace(/\s+/g, '-')}`} class="tag-card">
+          <span class="tag-name">{tag.replace(/_/g, ' ')}</span>
+          <span class="tag-count">{count} trip{count > 1 ? 's' : ''}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .tags-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .tag-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    background: #f8f8f5;
+    border: 1px solid #e5e5e0;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+  
+  .tag-card:hover {
+    background: #c5a47e;
+    border-color: #c5a47e;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tag-card:hover .tag-name,
+  .tag-card:hover .tag-count {
+    color: #fff;
+  }
+  
+  .tag-name {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+  }
+  
+  .tag-count {
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+  }
+</style>
+
+

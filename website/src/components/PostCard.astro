@@ -1,0 +1,148 @@
+---
+import imageManifest from '../data/image_manifest.json';
+
+interface Props {
+  title: string;
+  slug: string;
+  countries: string[];
+  dates: string;
+  duration: string;
+  coverImage?: string;
+  coverImageCrop?: 'center' | 'top' | 'top_center' | 'bottom_center' | 'bottom';
+  folder: string;
+  tags?: string[];
+  basePath?: string; // '/es' for Spanish, '' for English
+}
+
+const { title, slug, countries, dates, duration, coverImage, coverImageCrop = 'center', folder, tags = [], basePath = '' } = Astro.props;
+
+// Type the manifest
+const manifest = imageManifest as Record<string, { cdn_url: string; url: string }>;
+
+// Extract date for sorting/display
+const dateMatch = dates.match(/(\d{2})-(\d{2})-(\d{4})/);
+const displayDate = dateMatch ? `${dateMatch[2]}/${dateMatch[3]}` : dates;
+
+// Build image path - prefer Cloudinary, fallback to local
+let imagePath: string | null = null;
+if (coverImage && coverImage.trim() !== '') {
+  if (coverImage.startsWith('/')) {
+    imagePath = null; // Skip old invalid paths
+  } else {
+    // Try to get Cloudinary CDN URL
+    const manifestKey = `${folder}/${coverImage}`;
+    if (manifest[manifestKey]?.cdn_url) {
+      // Use Cloudinary with thumbnail transformation (400px width, auto crop)
+      imagePath = manifest[manifestKey].cdn_url.replace(
+        '/upload/f_auto,q_auto/',
+        '/upload/c_fill,w_600,h_400,f_auto,q_auto/'
+      );
+    } else {
+      // Fallback to local path
+      imagePath = `/images/${folder}/${encodeURIComponent(coverImage)}`;
+    }
+  }
+}
+
+// Map crop value to Cloudinary gravity OR CSS object-position
+const cropGravities: Record<string, string> = {
+  'top': 'north',
+  'top_center': 'north',
+  'center': 'center',
+  'bottom_center': 'south',
+  'bottom': 'south',
+};
+
+// For Cloudinary URLs, add gravity parameter
+if (imagePath && imagePath.includes('cloudinary.com')) {
+  const gravity = cropGravities[coverImageCrop] || 'center';
+  imagePath = imagePath.replace('c_fill,', `c_fill,g_${gravity},`);
+}
+
+// CSS fallback for local images
+const cropPositions: Record<string, string> = {
+  'top': 'center 0%',
+  'top_center': 'center 25%',
+  'center': 'center 50%',
+  'bottom_center': 'center 75%',
+  'bottom': 'center 100%',
+};
+const objectPosition = cropPositions[coverImageCrop] || 'center 50%';
+
+// Get first 3 tags
+const displayTags = tags.slice(0, 3);
+---
+
+<article class="post-card">
+  <a href={`${basePath}/trip/${slug}`}>
+    <div class="post-card-image">
+      {imagePath ? (
+        <img src={imagePath} alt={title} loading="lazy" style={`object-position: ${objectPosition}`} />
+      ) : (
+        <div class="post-card-placeholder">
+          <span>{countries.join(', ')}</span>
+        </div>
+      )}
+    </div>
+  </a>
+  <div class="post-card-content">
+    <div class="post-card-meta">
+      {countries.join(' · ')}
+    </div>
+    <h3 class="post-card-title">
+      <a href={`${basePath}/trip/${slug}`}>{title}</a>
+    </h3>
+    {displayTags.length > 0 && (
+      <div class="post-card-tags">
+        {displayTags.map((tag) => (
+          <a href={`${basePath}/tag/${tag.toLowerCase().replace(/\s+/g, '-')}`} class="tag">
+            {tag}
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</article>
+
+<style>
+  .post-card-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f0ebe3 0%, #ddd5c7 100%);
+    color: #999;
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  .post-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+  
+  .tag {
+    font-family: var(--font-heading);
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.25rem 0.6rem;
+    background: #f5f5f0;
+    border: 1px solid #e5e5e0;
+    border-radius: 3px;
+    color: #888;
+    transition: all 0.2s ease;
+  }
+  
+  .tag:hover {
+    background: #c5a47e;
+    border-color: #c5a47e;
+    color: #fff;
+  }
+</style>

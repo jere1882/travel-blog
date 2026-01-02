@@ -1,0 +1,271 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const trips = await getCollection('trips');
+  // Only generate pages for published trips
+  const publishedTrips = trips.filter(trip => trip.data.publish !== false);
+  return publishedTrips.map((trip) => ({
+    params: { slug: trip.data.trip_id },
+    props: { trip },
+  }));
+}
+
+const { trip } = Astro.props;
+
+// Get folder name for image paths
+const folder = trip.id.split('/')[0];
+
+// Transform Obsidian image syntax to standard HTML
+// ![[image.jpg]] -> <img src="/images/folder/image.jpg" />
+function transformObsidianImages(content: string, folder: string): string {
+  // Transform ![[image.jpg]] to standard markdown
+  return content.replace(
+    /!\[\[([^\]]+)\]\]/g,
+    (match, filename) => {
+      // Handle image captions (text after the image on next line starting with *)
+      const encodedFilename = encodeURIComponent(filename);
+      return `![${filename}](/images/${folder}/${encodedFilename})`;
+    }
+  );
+}
+
+// Transform the markdown body
+const transformedBody = transformObsidianImages(trip.body || '', folder);
+
+// Render the transformed content
+const { Content } = await render(trip);
+---
+
+<BaseLayout title={`${trip.data.title} | Jere's Travel Chronicles`}>
+  <article class="trip-article">
+    <header class="trip-header">
+      <div class="container">
+        <div class="trip-meta">
+          <span class="trip-countries">{trip.data.countries.join(' · ')}</span>
+          <span class="trip-dates">{trip.data.date_from === trip.data.date_to ? trip.data.date_from : `${trip.data.date_from} to ${trip.data.date_to}`}</span>
+          <span class="trip-duration">{trip.data.duration}</span>
+        </div>
+        <h1 class="trip-title">{trip.data.title}</h1>
+        {trip.data.cities && trip.data.cities.length > 0 && (
+          <p class="trip-cities">{trip.data.cities.join(' → ')}</p>
+        )}
+        {trip.data.tags && trip.data.tags.length > 0 && (
+          <div class="trip-tags">
+            {trip.data.tags.map((tag: string) => (
+              <a href={`/tag/${tag.toLowerCase().replace(/\s+/g, '-')}`} class="trip-tag">
+                {tag.replace(/_/g, ' ')}
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+    </header>
+    
+    <div class="container">
+      <div class="trip-content" data-folder={folder}>
+        <Content />
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style is:global>
+  .trip-article {
+    padding-bottom: 4rem;
+  }
+  
+  .trip-header {
+    text-align: center;
+    padding: 3rem 0 2rem;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 3rem;
+  }
+  
+  .trip-meta {
+    font-family: var(--font-heading);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .trip-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .trip-cities {
+    font-family: var(--font-body);
+    font-style: italic;
+    color: var(--color-text-light);
+    font-size: 1.1rem;
+  }
+  
+  .trip-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 1.25rem;
+  }
+  
+  .trip-tag {
+    font-family: var(--font-heading);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.35rem 0.75rem;
+    background: #f5f5f0;
+    border: 1px solid #e5e5e0;
+    border-radius: 3px;
+    color: #888;
+    transition: all 0.2s ease;
+    text-decoration: none;
+  }
+  
+  .trip-tag:hover {
+    background: #c5a47e;
+    border-color: #c5a47e;
+    color: #fff;
+  }
+  
+  .trip-content {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  
+  .trip-content h2 {
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  
+  .trip-content h3 {
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .trip-content h4 {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .trip-content p {
+    margin-bottom: 1.25rem;
+  }
+  
+  .trip-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trip-content em {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+    display: block;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .trip-content ul, .trip-content ol {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+  }
+  
+  .trip-content li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .trip-content blockquote {
+    border-left: 3px solid var(--color-accent);
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: var(--color-text-light);
+  }
+  
+  .trip-content hr {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 3rem 0;
+  }
+  
+  .trip-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .trip-content th, .trip-content td {
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    text-align: left;
+  }
+  
+  .trip-content th {
+    background: var(--color-card-bg);
+    font-family: var(--font-heading);
+    font-weight: 600;
+  }
+  
+  .trip-content a {
+    color: var(--color-accent-dark);
+    text-decoration: underline;
+  }
+  
+  .trip-content a:hover {
+    color: var(--color-text);
+  }
+  
+  @media (max-width: 768px) {
+    .trip-title {
+      font-size: 1.8rem;
+    }
+    
+    .trip-meta {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+</style>
+
+<script define:vars={{ folder }}>
+  // Transform Obsidian image syntax in the rendered content
+  document.querySelectorAll('.trip-content p').forEach(p => {
+    const html = p.innerHTML;
+    // Match ![[filename.ext]] pattern
+    const transformed = html.replace(
+      /!\[\[([^\]]+)\]\]/g,
+      (match, filename) => {
+        const encodedFilename = encodeURIComponent(filename);
+        return `<img src="/images/${folder}/${encodedFilename}" alt="${filename}" loading="lazy" />`;
+      }
+    );
+    if (transformed !== html) {
+      p.innerHTML = transformed;
+    }
+  });
+</script>
+

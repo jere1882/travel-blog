@@ -1,0 +1,81 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const tripsRaw = await getCollection('trips');
+  // Only include published trips
+  const trips = tripsRaw.filter(trip => trip.data.publish !== false);
+  
+  // Get all unique countries
+  const countriesMap = new Map<string, typeof trips>();
+  
+  trips.forEach(trip => {
+    trip.data.countries.forEach(country => {
+      const slug = country.toLowerCase().replace(/\s+/g, '-');
+      if (!countriesMap.has(slug)) {
+        countriesMap.set(slug, []);
+      }
+      countriesMap.get(slug)!.push(trip);
+    });
+  });
+  
+  return Array.from(countriesMap.entries()).map(([slug, countryTrips]) => ({
+    params: { country: slug },
+    props: { 
+      trips: countryTrips,
+      countryName: countryTrips[0].data.countries.find(c => 
+        c.toLowerCase().replace(/\s+/g, '-') === slug
+      ) || slug,
+    },
+  }));
+}
+
+const { trips, countryName } = Astro.props;
+
+// Sort trips by date
+const sortedTrips = trips.sort((a: any, b: any) => {
+  const getDateFromId = (id: string) => {
+    const match = id.match(/(\d{4})_(\d{2})_(\d{2})/);
+    if (match) {
+      return new Date(parseInt(match[1]), parseInt(match[2]) - 1, parseInt(match[3]));
+    }
+    return new Date(0);
+  };
+  return getDateFromId(b.id).getTime() - getDateFromId(a.id).getTime();
+});
+
+const getFolderFromId = (id: string) => {
+  const parts = id.split('/');
+  return parts[0];
+};
+
+---
+
+<BaseLayout title={`${countryName} | Jere's Travel Chronicles`}>
+  <div class="container">
+    <section class="site-title">
+      <h1>{countryName}</h1>
+      <p class="tagline">{trips.length} trip{trips.length > 1 ? 's' : ''}</p>
+    </section>
+
+    <div class="posts-grid">
+      {sortedTrips.map((trip: any) => (
+        <PostCard 
+          title={trip.data.title}
+          slug={trip.data.trip_id}
+          countries={trip.data.countries}
+          dates={trip.data.date_from === trip.data.date_to ? trip.data.date_from : `${trip.data.date_from} to ${trip.data.date_to}`}
+          duration={trip.data.duration}
+          coverImage={trip.data.main_image}
+          coverImageCrop={trip.data.main_image_crop}
+          folder={getFolderFromId(trip.id)}
+          tags={trip.data.tags || []}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+

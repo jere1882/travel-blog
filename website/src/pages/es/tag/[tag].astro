@@ -1,0 +1,92 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PostCard from '../../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  let trips;
+  try {
+    trips = await getCollection('trips_es');
+    if (trips.length === 0) trips = await getCollection('trips');
+  } catch {
+    trips = await getCollection('trips');
+  }
+  
+  trips = trips.filter(trip => trip.data.publish !== false);
+  const tagsMap = new Map<string, typeof trips>();
+  
+  trips.forEach(trip => {
+    const tags = trip.data.tags || [];
+    tags.forEach(tag => {
+      const slug = tag.toLowerCase().replace(/\s+/g, '-');
+      if (!tagsMap.has(slug)) tagsMap.set(slug, []);
+      tagsMap.get(slug)!.push(trip);
+    });
+  });
+  
+  return Array.from(tagsMap.entries()).map(([slug, tagTrips]) => ({
+    params: { tag: slug },
+    props: { 
+      trips: tagTrips,
+      tagName: tagTrips[0].data.tags?.find(t => t.toLowerCase().replace(/\s+/g, '-') === slug) || slug,
+    },
+  }));
+}
+
+const { trips, tagName } = Astro.props;
+
+const sortedTrips = trips.sort((a: any, b: any) => {
+  const getDateFromId = (id: string) => {
+    const match = id.match(/(\d{4})_(\d{2})_(\d{2})/);
+    if (match) return new Date(parseInt(match[1]), parseInt(match[2]) - 1, parseInt(match[3]));
+    return new Date(0);
+  };
+  return getDateFromId(b.id).getTime() - getDateFromId(a.id).getTime();
+});
+
+const getFolderFromId = (id: string) => id.split('/')[0];
+const displayTagName = tagName.replace(/_/g, ' ');
+---
+
+<BaseLayout title={`${displayTagName} | Crónicas Viajeras`} lang="es">
+  <div class="container">
+    <section class="site-title">
+      <div class="tag-badge">{displayTagName}</div>
+      <p class="tagline">{trips.length} viaje{trips.length > 1 ? 's' : ''} con esta etiqueta</p>
+    </section>
+
+    <div class="posts-grid">
+      {sortedTrips.map((trip: any) => (
+        <PostCard 
+          title={trip.data.title}
+          slug={trip.data.trip_id}
+          countries={trip.data.countries}
+          dates={trip.data.date_from === trip.data.date_to ? trip.data.date_from : `${trip.data.date_from} al ${trip.data.date_to}`}
+          duration={trip.data.duration}
+          coverImage={trip.data.main_image}
+          coverImageCrop={trip.data.main_image_crop}
+          folder={getFolderFromId(trip.id)}
+          tags={trip.data.tags || []}
+          basePath="/es"
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .tag-badge {
+    display: inline-block;
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.5rem 1.5rem;
+    background: #c5a47e;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+</style>
+
