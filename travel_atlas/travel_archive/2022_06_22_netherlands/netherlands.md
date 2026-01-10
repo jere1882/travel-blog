@@ -1,5 +1,5 @@
 ---
-title: "Amsterdam: Canals, Tulips & Golden Age Ghosts"
+title: "Amsterdam: Canals, Windmills & Golden Age Ghosts"
 trip_id: netherlands_2022
 date_from: 19-06-2022
 date_to: 22-06-2022
@@ -21,15 +21,21 @@ tags:
 main_image: img_netherlands_2022_007.jpeg
 main_image_crop: top
 ---
-# Amsterdam & Beyond
+
+# Four Days in Amsterdam
 
 I had long wanted to visit Amsterdam, a city famous for its romantic canals, the flashy Red Light District, and its iconic terraced houses. I didn’t expect to be *that* impressed though, having already been to many European capitals, but the moment I arrived, the city completely blew me away.
 
-Every street, every canal, every corner felt like a postcard come to life. At some point, I even stopped taking pictures because everywhere I looked was stunning. My strongest memory of Amsterdam is simply strolling for miles, constantly amazed at how neat, aesthetic, and perfectly arranged everything is. 
+Every street, every canal, every corner felt like a postcard come to life. At some point, I recall that I stopped taking pictures at all because everywhere I looked was stunning, and there was no way to capture it all. My strongest memory of Amsterdam is simply strolling for miles, constantly amazed at how neat, aesthetic, and perfectly arranged everything is. 
+
+![[img_netherlands_2022_028.jpeg]]
+*The windmills at Zaanse Schans make for an idilic day trip from Amsterdam*
 
 We visited in Summer 2022, which only added to the magic: blooming flowers, clear blue skies, and perfect weather. I left genuinely surprised that Amsterdam had leapt straight into my top-five favourite cities in the world. 
 
 ![[img_netherlands_2022_038.png]]*A map of Amsterdam, where I overlaid a blue dot for each picture I took during my visit.*
+
+[content_table]
 
 # Itinerary
 
@@ -96,7 +102,9 @@ By the end of the 17th century the city had some 200,000 inhabitants, making it
 
 ![[img_netherlands_2022_015.jpeg]]
 *The Munttoren (Mint Tower) was a historic entrance point to the old city, today a freestanding clock tower but built originally in 1480 as part of the city walls.*
+
 <iframe src="https://www.google.com/maps/embed?pb=!4v1764037824655!6m8!1m7!1sfIQnbQU05jdj6jvOzThamQ!2m2!1d52.36711774419118!2d4.893645178597884!3f247.9041622389597!4f18.041216195164836!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 ![[img_netherlands_2022_008.jpeg]]
 *Could there be a more beautiful Brasserie?*
 
@@ -145,9 +153,8 @@ At night time is bustling with tourists, neon lights and music. You can see wind
 
 De Wallen has approximately 300 one-room cabins rented by prostitutes who offer their services from behind glass doors. I remember being a little ashamed when we walked past the windows, at times we'd see the occasional client getting in.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7_VLA0lXT9k?si=sKGQIaslc6SxuDSa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ![[img_netherlands_2022_057.png]]
+*Screenshot of [this](https://www.youtube.com/watch?v=7_VLA0lXT9k) video, showcasing the famous windows at the Red Discrict.*
 
 Naturally you are not allowed or supposed to snap pictures, yet the whole situation feels surprisingly natural. Tourists and locals of all ages and genres stroll next to the windows.
 
@@ -157,23 +164,35 @@ Because of its proximity to the harbor, Amsterdam’s old city center has attrac
 
 After the city became Protestant in 1578, prostitution was officially banned and forced underground. This changed in 1811, under Napoleonic rule, when prostitution was legalized and regulated, with compulsory health checks and work permits (often symbolized by a red card).
 
-![[img_netherlands_2022_023.jpeg]]
-
-In the early 20th century, religious and moral reform movements led to renewed crackdowns, including the 1911 Morality Acts, which banned brothels and again pushed sex work into semi-illegal forms.
-
-![[img_netherlands_2022_024.jpeg]]
-
-A major shift came in 2000, when the Netherlands legalized brothels nationwide. In the 21st century, Amsterdam’s Red Light District operates under strict regulation: sex workers are legally self-employed, windows are licensed, and health and safety standards are enforced. At the same time, the city has moved to reduce the district’s scale, combat trafficking, and rebalance the area toward residents and other businesses.
+[carousel]
 
 ![[img_netherlands_2022_025.jpeg]]
 
+![[img_netherlands_2022_023.jpeg]]
+
+![[img_netherlands_2022_024.jpeg]]
+
+[/carousel]
+
+In the early 20th century, religious and moral reform movements led to renewed crackdowns, including the 1911 Morality Acts, which banned brothels and again pushed sex work into semi-illegal forms.
+
+A major shift came in 2000, when the Netherlands legalized brothels nationwide. In the 21st century, Amsterdam’s Red Light District operates under strict regulation: sex workers are legally self-employed, windows are licensed, and health and safety standards are enforced. At the same time, the city has moved to reduce the district’s scale, combat trafficking, and rebalance the area toward residents and other businesses.
+
 Throughout the city, but especially here, you can see many shops selling soft drugs, mainly cannabis. Licensed coffeeshops are allowed to sell small amounts of cannabis (up to 5 grams per person).
+
 ## Dam Square
 
 Dam Square marks the birthplace of Amsterdam, growing from a simple dam on the Amstel into the city’s main civic and ceremonial stage.
 
+[carousel]
+
 ![[img_netherlands_2022_004.jpeg]]
 *The royal palace was closed to visitors for an event when we visited. Completed in 1656, it was built as a city hall to replace the old one that burned down.*
+
+![[img_netherlands_2022_047.png]]
+*The palace, surrounded by contructions in progress - I love the Atlas at the top of the facade*
+
+[/carousel]
 
 ![[img_netherlands_2022_048.png]]
 *Townsfolk gathering water to douse the flames, by Jan van der Heyden*
@@ -187,44 +206,64 @@ Dam Square marks the birthplace of Amsterdam, growing from a simple dam on the A
 ![[img_netherlands_2022_043.png]]
 *The former Amsterdam Main Post Office, now the Magna Plaza mall, was built in 1895-1899.*
 <iframe src="https://www.google.com/maps/embed?pb=!4v1764036460277!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQzJxWl9OandF!2m2!1d52.37312039253036!2d4.89240815446787!3f282.4076555184955!4f17.466750512372485!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-![[img_netherlands_2022_047.png]]
-*The palace, surrounded by contructions in progress - I love the Atlas at the top of the facade*
+
 ## The 9 streets and around
 
 De Negen Straatjes are nine narrow streets woven between the main canals, originally functional connectors and today one of Amsterdam’s most atmospheric areas for wandering.
 
 ![[img_netherlands_2022_006.jpeg]]
 
-<iframe src="https://www.google.com/maps/embed?pb=!4v1764037287496!6m8!1m7!1sONv5hRzV2k3_jT6JZnkchQ!2m2!1d52.37019877678829!2d4.888002280968357!3f180.2803609024774!4f2.5174229734744387!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>*Idylic canals*
+<iframe src="https://www.google.com/maps/embed?pb=!4v1764037287496!6m8!1m7!1sONv5hRzV2k3_jT6JZnkchQ!2m2!1d52.37019877678829!2d4.888002280968357!3f180.2803609024774!4f2.5174229734744387!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+*Idylic canals*
 
 <iframe src="https://www.google.com/maps/embed?pb=!4v1765661671255!6m8!1m7!1sPZ38vJUfqgzyoo_BzJD5Tw!2m2!1d52.3702985892994!2d4.884403974611581!3f29.37238838886158!4f1.4818322616587665!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
 ## The Old Centre
 
 Often called _De Oude Stad_ or simply _het oude centrum_, it is is the medieval core of Amsterdam. This area predates the 17th-century canals and grew organically, not by design; thus you can see narrow maze-like streets.
 
+[carousel]
+
+![[img_netherlands_2022_007.jpeg]]
+*Leo posing with Kloveniersburgwal Canal*
+
 ![[img_netherlands_2022_058.png]]
 *1612 map of Amsterdam, what is now the Old Town*
 
-![[img_netherlands_2022_007.jpeg]]
-*Leo posing with Kloveniersburgwal Canal *
+[/carousel]
+
 <iframe src="https://www.google.com/maps/embed?pb=!4v1764037529955!6m8!1m7!1swLpRYXglXjUEMB0jdWhwPg!2m2!1d52.36968610793119!2d4.897180001582995!3f116.01683319738959!4f2.454937081129927!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 ![[img_netherlands_2022_044.png]]
 *This area is absolutely beautiful, this aerial view from Google maps convey the beauty of historical Kloveniersburgwal canal*
 
 De Waag is a **historic building** on the square Nieuwmarkt (historical market square), in the old heart (old centre) of Amsterdam.
 
+[carousel]
+
 ![[img_netherlands_2022_045.png]]
 *De Waag was originally one of the city gates, and later converted into a weigh house (where goods were weighed for trade and taxation). Over the centuries it has been a guildhall, a museum and even a cafe.*
-<iframe src="https://www.google.com/maps/embed?pb=!4v1764039527933!6m8!1m7!1sgstpJvCnAdlZg7DyGfWrWQ!2m2!1d52.37240649230143!2d4.900361221783523!3f308.11547805890353!4f9.155539880937582!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>*Panoramic view of the market square*
 
 ![[img_netherlands_2022_016.jpeg]]
+*Closeup of De Waag*
+
+[/carousel]
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1764039527933!6m8!1m7!1sgstpJvCnAdlZg7DyGfWrWQ!2m2!1d52.37240649230143!2d4.900361221783523!3f308.11547805890353!4f9.155539880937582!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+*Panoramic view of the market square*
 
 ![[img_netherlands_2022_020.jpeg]]
 
 <iframe src="https://www.google.com/maps/embed?pb=!4v1765662022087!6m8!1m7!1sReD6GAsevPq5daPfszT8VQ!2m2!1d52.37442457143045!2d4.896789548611202!3f204.1069318452098!4f8.0933615973549!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 ## Museum Quarter & Vondelpark
 
 This is the area where we booked accommodation, being significantly cheaper than the old town yet at walking distance and very beautiful on itself.eeee
+
+[carousel]
 
 ![[img_netherlands_2022_001.jpeg]]
 *Residential houses at Museum Quarter area*
@@ -234,17 +273,24 @@ This is the area where we booked accommodation, being significantly cheaper than
 ![[img_netherlands_2022_012.jpeg]]
 *Rijksmuseum - The national museum of the Netherlands. The current building opened in 1885, but the museum itself was founded in 1800.*
 
+[/carousel]
+
 ![[img_netherlands_2022_040.png]]
 *View of the Voormalig bolwerk Amstelveen, literally translating to 'former bastion Amstelveen', the 14th bastion in Amsterdam's historical defense walls, built in 1660*
-<iframe src="https://www.google.com/maps/embed?pb=!4v1764035026211!6m8!1m7!1spfhZCDJ-zdR_ZIPbO6tEZQ!2m2!1d52.36076400671368!2d4.886258944308627!3f12.0490168155535!4f2.2735510878669487!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>*Voormalig bolwerk Amstelveen right across to Rijksmuseum*
+<iframe src="https://www.google.com/maps/embed?pb=!4v1764035026211!6m8!1m7!1spfhZCDJ-zdR_ZIPbO6tEZQ!2m2!1d52.36076400671368!2d4.886258944308627!3f12.0490168155535!4f2.2735510878669487!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-![[img_netherlands_2022_013.jpeg]]
+*Voormalig bolwerk Amstelveen right across to Rijksmuseum*
+
+[carousel]
+
+![[img_netherlands_2022_018.jpeg]]
+*We stayed at quaint Hotel Atlas*
 
 ![[img_netherlands_2022_011.jpeg]]
 *Side entry of our hotel, Atlas Hotel*
 
-![[img_netherlands_2022_018.jpeg]]
-*We stayed at quaint Hotel Atlas*
+[/carousel]
+
 ## Waterland Villages
 
 For our last day, we planned a full day trip through the countryside, visiting several charming towns—including the **iconic windmills of Zaanse Schans**, straight out of a postcard!
@@ -256,6 +302,8 @@ For our last day, we planned a full day trip through the countryside, visiting s
 *Our journey started at Amsterdam Central Station*
 
 <iframe src="https://www.google.com/maps/embed?pb=!4v1765727509052!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQzZnLWIxcWdF!2m2!1d52.37811106331569!2d4.899704856037492!3f46.738646799985986!4f5.911183109319694!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
 ### Zaanse Schans
 
 Zaanse Schans isn’t a traditional village that organically grew over centuries in its current form. It’s more like an **open-air heritage area**, created in the 1960s–70s to preserve historic buildings from the wider Zaan region. Many of the houses, barns, and mills were **moved here piece by piece** from nearby towns to save them from demolition
@@ -267,7 +315,6 @@ The windmills are in working conditions, surrounded by canals. They convert wind
 
 ![[img_netherlands_2022_026.jpeg]]
 ![[img_netherlands_2022_027.jpeg]]
-![[img_netherlands_2022_028.jpeg]]
 
 The visit is not that long, you basically get off the train station (west to the river), walk the bridge and stroll around the riverside admiring the mills and countryside views.
 
@@ -339,6 +386,7 @@ It's usually impossible to cover all the highlights in a first visit, and that's
 | **Cycling Infrastructure** | ~35,000 km      | **1st**               |
 | **Land Below Sea Level**   | ~26%            | **1st**               |
 | **Language**               | Dutch           |                       |
+
 ![[img_netherlands_2022_055.png]]
 
 * The Netherlands is extremely rich for its size and population, especially in terms of per-capita income, trade efficiency, and standard of living.
@@ -439,7 +487,7 @@ Over the next two centuries, the Dutch monarchy transformed alongside the nation
 Interesting facts of today's monarchy:
 * The monarchy receives an annual budget from the state, called the “civil list” (around €45–50 million in recent years), which covers salaries of the king, queen, and close family, as well as the costs of running palaces, staff, and official duties.
 * The Dutch royal family is wealthy but not extremely rich compared to global billionaires. Their private fortune is estimated at around €300–600 million, which is three orders of magnitude than e.g. Elon Musk's
-## Biking
+## Biking culture
 
 It might seem weird to have a whole section about biking, but as soon as you step into central Amsterdam, it’s impossible to ignore: **bikes are everywhere**. People are riding fast, sometimes recklessly, and it feels like they’ll crash into you at any moment. Crossing the street as a pedestrian is basically a sport.
 

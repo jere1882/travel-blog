@@ -12,8 +12,8 @@ social: Couple
 airline:
 tags:
   - medieval
-  - england
   - library
+  - harry_potter
 main_image: img_oxford_2022_037.png
 ---
 # A Summer Day in Oxford: Cloisters, Colleges, and a Glimpse of Hogwarts
@@ -22,11 +22,14 @@ On a warm summer day in 2022, I took a day trip from London to **Oxford**, a cit
 
 I spent the day wandering through colleges, libraries, and hidden courtyards, each more beautiful than the last. The architecture alone could fill a book: vaulted ceilings, ancient chapels, stone passages glowing in the afternoon light. At times I literally felt I was at the Great Hall or the Library in Hogwarts!
 
-Unlike most cities that happened to have a university, **Oxford _is_ the university**. The colleges, libraries, chapels, and even many of the pubs and shops exist because of the students and professors who’ve lived there for centuries. Everything in the city traces back to that purpose. I loved this summary: London was built for power, trade, and politics, Oxford was built for learning.
+Unlike most cities that happened to have a university, **Oxford ciy _is_ the university**. The colleges, libraries, chapels, and even many of the pubs and shops exist because of the students and professors who’ve lived there for centuries. Everything in the city traces back to that purpose. I loved this summary: London was built for power, trade, and politics, Oxford was built for learning.
 
 ![[img_oxford_2022_028.jpeg]]
 *The Great Hall of Magdalen College - Almost like Hogwarts!*
-## A Short History of Oxford
+
+[content_table]
+
+# A Short History of Oxford
 
 Oxford’s roots as a centre of learning reach back to the late 11th century, making it the oldest university in the English-speaking world. Teaching began informally, with small groups of scholars gathering to discuss theology and philosophy under the guidance of the Church. Unlike London, which was already a busy hub of trade and politics, Oxford offered something rare at the time — quiet, safety, and space to think.
 
@@ -36,13 +39,13 @@ A turning point came in 1167, when King Henry II forbade English students from a
 
 What makes Oxford special is how much of that past still feels alive. You can walk through the same lanes where medieval scholars once hurried to lectures, study under ceilings that have stood for centuries, and see learning woven into the very stones of the city.
 
-## Getting to Oxford from London
+# Getting to Oxford from London
 
 Just a 1-hour train ride away, Oxford is one of the easiest and most accessible day trips from London. We purchased open-return tickets for just 30£, meaning that we were able to travel back to London at any time we wanted.
 
 ![[img_oxford_2022_053.png]]
 
-## Sightseeing
+# Sightseeing
 
 The main draw of the city are (A) the Bodleian Library buildings and (B) the many colleges, with pristine campuses and medieval architecture.
 
@@ -57,7 +60,7 @@ The main draw of the city are (A) the Bodleian Library buildings and (B) the man
 | **Bodleian Library**                        | 1602         | _(not a college)_        | One of the oldest libraries in Europe, holding over 13 million books. The Duke Humfrey’s Library inside was used as Hogwarts Library in the films.          |
 | **Radcliffe Camera**                        | 1737–1749    | _(not a college)_        | Originally built for the Radcliffe Science Library. The name “Camera” means “room” in Latin.                                                                |
 | **University Church of St Mary the Virgin** | 13th century | _(not a college)_        | The spiritual and historical heart of Oxford University — the earliest scholars gathered around it, giving birth to the university itself.                  |
-### The Divinity School
+## The Divinity School
 
 Built between 1427 and 1483, the **Divinity School** is the oldest surviving purpose-built building for university use, which was used for lectures, oral exams and theology (*divinity*) discussions. The building is a heritage site nowadays, open for visitors (£2.5 for a single entry ticket), and it takes only a few minutes to visit the interior.
 
@@ -76,7 +79,7 @@ Fun facts:
 *Here's McGonagall's dancing lesson, with increased brightness to highlight the room features. Filmed in 2004.*
 
 The building is physically attached to the Bodleian Library
-### The Old Bodleian Library
+## The Old Bodleian Library
 
 The Bodleian Library is actually a whole system of many libraries across Oxford, conforming the main research library of the University of Oxford. Founded in 1602 by Sir Thomas Bodley, the library has over 13 million books and it's one of the oldest and largest in the world.
 
@@ -135,7 +138,7 @@ Fun facts:
 
 ![[img_oxford_2022_044.png]]
 *Detail of the Oxonia illustrata engraving.*
-### The Radcliffe Camera
+## The Radcliffe Camera
 
 The Radcliffe Camera is yet another building conforming the Bodleian Library, built in 1737-1749 to house the Radcliffe Science Library. It is one of the most recognizable landmarks of the city due to its circularity and its position in the hearth of Oxford.e
 
@@ -145,13 +148,16 @@ The Radcliffe Camera is yet another building conforming the Bodleian Library, bu
 *Engraving from Oxford illustrata*
 
 We were not able to visit the interior, since it can only be visited on guided tours with very limited availability.
-### University Church of St Mary the Virgin
+
+## University Church of St Mary the Virgin
 
 St Mary the Virgin is Oxford's University Church, founded in the 13th Century. Back then, Oxford was just beginning to from as a place of learning. Scholars gathered around St Mary the Virgin because:
 - The church was the central meeting point in town.
 - Lectures and theological disputations (the earliest form of “university teaching”) were often held nearby.
 - Church authorities provided clerical oversight, since most scholars were clergy at the time.
 Thus, Oxford University literally grew out of the congregation and activities around this church. The church has been the spiritual center of the university for centuries.
+
+[carousel]
 
 ![[img_oxford_2022_005.jpeg]]
 
@@ -160,18 +166,27 @@ Thus, Oxford University literally grew out of the congregation and activities ar
 ![[img_oxford_2022_007.jpeg]]
 
 ![[img_oxford_2022_030.png]]
-### Lincoln College
+
+[/carousel]
+
+## Lincoln College
 
 Next to the church we can find this intimate, small college.
 
 ![[img_oxford_2022_008.jpeg]]
-### The Covered Market
+## The Covered Market
 
 Perfect for a lunch break, Oxford Covered Market is a historical indoor marketplace that has been operating nonstop since the 1770s!
 
+[carousel]
+
 ![[img_oxford_2022_011.jpeg]]
+
 ![[img_oxford_2022_012.jpeg]]
-### Christ Church College
+
+[/carousel]
+
+## Christ Church College
 
 Oxford's crown jewel, both historically an architecturally, is one of the largest and most famous. Unfortunately it was closed for visitors, so we had to content ourselves with a distant photo.
 
@@ -183,12 +198,12 @@ I really regret not having been able to visit the famous great hall, which inspi
 *Photo from the official website*
 
 This college has many notable graduates, including 13 prime ministers!
-### Jesus College
+## Jesus College
 
 One of Oxford quieter gems is Jesus college, extremely peaceful and quaint. Founded in 1571 by Queen Elizabeth I, it has deep Welsh roots and students affectionally call it "the Welsh college"
 
 ![[img_oxford_2022_047.png]]
-### Balliol College
+## Balliol College
 
 Balliol College is one of the three oldest and most intellectually influent colleges, with a reputation for academic excellency. The full name of the college is "*The Master and Scholars of Balliol College in the University of Oxford*, founded in 1263 by John de Balliol, a wealthy noblemen. His wide, Dervoguilla de Galloway, secured and formalized the financial foundation of the college, and it is often regarded as the true founder.
 
@@ -196,13 +211,17 @@ Balliol College is one of the three oldest and most intellectually influent coll
 
 Balliol has an exceptional academical and political tradition, known for producing prime ministers, philosophers and Nobel laureates.
 
+[carousel]
+
 ![[img_oxford_2022_015.jpeg]]
 *Balliol College Chapel*
 
 ![[img_oxford_2022_014.jpeg]]
+
 ![[img_oxford_2022_016.jpeg]]
 
-Hall
+[/carousel]
+
 ![[img_oxford_2022_017.jpeg]]
 *Dining hall of Balliol College, built in 1877 to replace an older hall*
 
@@ -214,7 +233,7 @@ Hall
 Dervoguilla was a wealthy, influential Scottish noblewoman in the 13th Century. Her name is a Latinisation of the Gaelic Dearbhfhorghaill. In 1263, her husband Sir John was required to make penance after a land dispute. Part of this took the very expensive form of founding a college for the poor at the University of Oxford.
 
 Sir John's own finances were less substantial than those of his wife, however, and long after his death it fell to Dervorguilla to confirm the foundation. She established a permanent endowment for the college in 1282, as well as its first formal statutes
-### Sheldonian Theatre
+## Sheldonian Theatre
 
 Since we were already short in time, we quickly walked past this historical landmark and were unable to properly admire it.  Built in 1664-1669, it was designed as a ceremonial hall for the university to hold graduations, lectures, ceremonies, concerts and public events.
 
@@ -224,9 +243,11 @@ Since we were already short in time, we quickly walked past this historical land
 
 ![[img_oxford_2022_048.png]]
 *The theatre in 1675, according to Oxfonia Illustrata*
-### Westone Library
+## Westone Library
 
 Part of the Bodleian Library, it houses special collections, rare books and exhibition spaces. We briefly browsed the exhibits before moving on to our last college of the day.
+
+[carousel]
 
 ![[img_oxford_2022_033.png]]
 *Closeup of an old book*
@@ -234,7 +255,9 @@ Part of the Bodleian Library, it houses special collections, rare books and exhi
 ![[img_oxford_2022_034.png]]
 *Ga'ez Gospel book , Four Gospels, late 15 or early 16th century*
 
-### Magdalen College
+[/carousel]
+
+## Magdalen College
 
 Our final stop was Magdalen College, one of the most picturesque and iconic colleges. Founded in 1458 by William of Waynflete, Bishop of Winchester, it is known for academic excellence and beautiful grounds.
 
@@ -257,13 +280,13 @@ Our final stop was Magdalen College, one of the most picturesque and iconic coll
 
 ![[img_oxford_2022_029.jpeg]]
 *Exterior of the chapel*
-### Queen's College
+## Queen's College
 
 This is a rather unimportant college that we only walked past by, but I was mesmerized by the sight of a graveyard full of students sunbathing, lying on the tombstones. What an unlikely sight!
 
 ![[img_oxford_2022_035.png]]
 
-### Attractions we missed
+# Attractions we missed
 
 It's hard to hit all major attractions in a single day, especially since visitor hours are reduced, colleges have closure days and tickets may have ran out. I missed a couple crucial spots that I hope to visit next time:
 
@@ -279,7 +302,7 @@ It's hard to hit all major attractions in a single day, especially since visitor
 ![[img_oxford_2022_021.jpeg]]
 *Astounding board game floor at Blackwell's Sci-fi, Manga & Games*
 
-## Interesting Facts about the University
+# Interesting Facts about the University
 
 ![[img_oxford_2022_051.png]]
 
@@ -290,7 +313,8 @@ It's hard to hit all major attractions in a single day, especially since visitor
 * The admission rate is highly competitive — around **13-17%** depending on course and year.
 * Visiting the city is remarkably reminiscing of visiting Cambridge, which I had visited only a month before.
 * Oxford has held the #1 spot in the Times Higher Education (THE) World University Rankings every year since 2017. In most of the rankings out there, Oxford is going to be in the top-5 best universities in the world!
-## Conclusion
+
+# Final Thoughts
 
 Walking through Oxford colleges feels like moving through time: centuries of scholarship, medieval buildings that look exactly as they did 400 years ago and young students receiving the highest quality, most modern education in the world.
 

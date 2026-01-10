@@ -18,16 +18,19 @@ tags:
   - museums
 main_image: img_philly_2022_036.jpeg
 ---
-# Intro
+
+# An Unexpected Visit to Philly and DC
 
 ![[img_philly_2022_023.jpeg]]
 *Philadelphia City Hall*
 
-I had the privilege to attend the 2022 International Conference on Robotics and Automation (ICRA) in Philadelphia, Pennsylvania during a company trip. Naturally, I spent most of the weekdays attending lectures and expositions at the Pennsylvania Convention Center. 
+I had the privilege to attend the 2022 International Conference on Robotics and Automation (ICRA) in Philadelphia, Pennsylvania during a company trip. I spent most of the weekdays attending lectures and expositions at the Pennsylvania Convention Center. 
 
 It was a unique opportunity to get up to date with the latest trends in robotics, and I remember more than half the talks were already about transformers, the base technology that shortly after massively reshaped our life via smart chatbots like ChatGPT.
 
 Outside lectures and during weekends, I visited the highlights of Philly ; and even managed to squeeze in a day trip to one of my favourite cities in the US: Washington DC.
+
+[content_table]
 
 # Sightseeing Philly
 
@@ -46,6 +49,7 @@ Philadelphia, the largest city in Pennsylvania, is one of the most historically 
 | **Major Landmarks**        | Independence Hall, Liberty Bell, Philadelphia Museum of Art      |
 | **Airport**                | Philadelphia International Airport (PHL)                         |
 | **Interesting Fact**       | Served as U.S. capital from 1790–1800                            |
+
 ![[img_philly_2022_009.jpeg]]
 
 I had skipped Philly in my last trip to the region, where I focused on NYC and DC instead. Had it not been for this conference, I probably would have never visited the city, which is a little underwhelming compared with the other cities in the area.
@@ -56,11 +60,17 @@ One of the city's most iconic landmarks, which stands at the geographic center o
 
 Construction began in 1871 and lasted 30 years.  Atop the tower stands a 37-foot (11m) bronze statue of William Penn. For nearly a century, no building in Philadelphia rose higher than Penn's hat, until a skyscraper surpassed it in the 1980s.
 
+[carousel]
+
 ![[img_philly_2022_018.jpeg]]
+
 ![[img_philly_2022_014.jpeg]]
 
+[/carousel]
+
 Given its central location, I passed by this building every day.
-# Independence Hall
+
+## Independence Hall
 
 The most visited attraction of the city is the **Independence Hall**, where the Declaration of Independence was debated and adopted in 1776; and later where the U.S. Constitution was drafted and signed in 1787.
 
@@ -69,6 +79,8 @@ The whole place is a UNESCO world heritage site, and I purchased a ticket to tou
 ![[img_philly_2022_001.jpeg]]
 
 ![[img_philly_2022_002.jpeg]]
+
+[carousel]
 
 ![[img_philly_2022_003.jpeg]]
 *Entrance hall*
@@ -82,6 +94,8 @@ The whole place is a UNESCO world heritage site, and I purchased a ticket to tou
 ![[img_philly_2022_006.jpeg]]
 *Assembly Room. The Assembly Room of the Pennsylvania State House served as the meeting place of the Pennsylvania Assembly for over sixty years until the State Capital moved away from Philadelphia in 1799. In 1776, the Continental Congress declared Independence in this room and in 1787 the U.S. Constitution was debated and signed. Most historians consider this room one of the most historic rooms in the United States.*
 
+[/carousel]
+
 History: Before 1760, the colonies had lived under what’s often called **“salutary neglect.”**  That meant Britain allowed them broad **self-government**, as long as trade benefited the British Empire. Each colony had its own elected assembly, and the colonists saw themselves as loyal **British subjects** — enjoying English rights like representation and trial by jury.
 
 But after the **Seven Years’ War (1756–1763)** — known in America as the **French and Indian War** — everything began to change. Britain had won vast new territories but was deeply in **debt** and expected the colonies to help pay for the costs of defense and administration.
@@ -91,6 +105,7 @@ To raise money, Britain passed a series of taxes and trade regulations on the co
 By mid-1775, the colonists were still technically fighting **for their rights within the British Empire**, not necessarily for independence. But several things pushed them over the line, such as King George III's rejection of their petitions and Britain declaring open rebellion and sending massive reinforcements, inability to have diplomatic relationships with France as a colony.
 
 Thus, in 1176, written by Thomas Jefferson, the Declaration of Independence became a statement of principle and a practical diplomatic move.
+
 ## Liberty Bell
 
 Just across from Independence Hall stands the Liberty Bell, commissioned in 1751 by the Pennsylvania Assembly to commemorate the 50th anniversary of William Penn’s 1701 Charter of Privileges (the colony’s first constitution). It was the bell of what we now call Independence Hall, when it was the State House of Pennsylvania.
@@ -108,9 +123,14 @@ The Liberty Bell did not play a direct role in the Declaration of Independence o
 
 This is a quirky market where we had lunch many times in breaks from the conference. Originally built for the Reading Railroad, it's now extremely popular with locals and tourists.
 
-![[img_philly_2022_017.jpeg]]
+[carousel]
 
 ![[img_philly_2022_011.jpeg]]
+
+![[img_philly_2022_017.jpeg]]
+
+[/carousel]
+
 ## City Views
 
 ![[img_philly_2022_012.jpeg]]
@@ -144,9 +164,9 @@ During this trip I recall getting familiar with the details of popular fields li
 
 Four other iRobot colleagues attended, and we had dinner a few times. One day we went to a Chinese restaurant, another day we went rock-climbing to a climbing gym. It was fun to meet real life colleagues after so much covid isolation.
 
-# DC
+# Washington DC
 
-Washington DC is one of my favourite cities in the US, and I couldn't miss the chance of a short visit before returning to the UK. 
+The capital of the USA is one of my favourite cities in the country, and I couldn't miss the chance of a short visit before returning to the UK. 
 
 ![[img_philly_2022_035.jpeg]]
 
@@ -212,6 +232,8 @@ An astounding collection of newspapers - some of them from momentous historical 
 
 Of course, if there is something you can find here is **stamps!**
 
+[carousel]
+
 ![[img_philly_2022_024.jpeg]]
 *A Looney Tunes collection was issued in 1997 - [link](https://postalmuseum.si.edu/exhibition/art-of-the-stamp-the-artwork-stamps-with-a-story/looney-tunes-bugs-bunny) *
 
@@ -223,15 +245,25 @@ Of course, if there is something you can find here is **stamps!**
 
 ![[img_philly_2022_059.png]]
 
+[/carousel]
+
 ### The Bond of the Scattered Family
 
 In the 1880s and 1890s, immigrants poured into U.S. cities, thousands of miles from family and friends. Letters became their only link with their past lives. In 1889 alone, nearly a billion letters and postcards were exchanged between Europe and America, 22 times the correspondence between the two continents during the Civil War. Letters connected them to the people and ways of life they had left behind. They enabled parents to follow their children and grandchildren as thes++e new American generations became a more important part of the family.
 
 _What did recent immigrants and their families back home think of life in the new country? Their letters reveal the hopes and fears, tragedy and triumph, eagerly sought and shared with other relatives and friends, sustaining family ties across continents and oceans._
 
+[carousel]
+
 ![[img_philly_2022_030.jpeg]]
+
 ![[img_philly_2022_031.jpeg]]
+
+[/carousel]
+
 ### Other highlights
+
+[carousel]
 
 ![[img_philly_2022_025.jpeg]]
 *The museum showcases the history of postal service across the times. It feels like time traveling.*
@@ -242,11 +274,15 @@ _What did recent immigrants and their families back home think of life in the ne
 
 ![[img_philly_2022_033.jpeg]]
 
+[/carousel]
+
 Last but not least, there was a room full of stamps that you could take home for free - You were allowed to put ~10 stamps max in an envelope per person. I spent a while putting together a bunch for my grandpa.
 
 ## The National Gallery
 
 The second museum I visited in depth was The National Gallery of Art. Here are my highlights:
+
+[carousel]
 
 ![[img_philly_2022_039.jpeg]]
 *The Veiled Nun - c1863, Italian*
@@ -255,34 +291,52 @@ The second museum I visited in depth was The National Gallery of Art. Here are m
 
 ![[img_philly_2022_041.jpeg]]
 
+[/carousel]
+
+[carousel]
+
 ![[img_philly_2022_043.jpeg]]
 *"Four Seasons in One Head" - c1590, by Italian Giuseppe Arcimboldo. This looks very much like a fantasy roleplay portrait*
 
 ![[img_philly_2022_042.jpeg]]
 *The sinking fleet of Selecus - 1532, Italian.*
-![[img_philly_2022_042.jpeg]]
+
 ![[img_philly_2022_061.png]]
 *The Square of St Mark's, Venice - Canaletto, c1742. The artwork, created for wealthy Grand Tour visitors, captures the light and atmosphere of the piazza, with architectural elements like the Basilica di San Marco and the Campanile*
 
+[/carousel]
+
+
 Note: The **Grand Tour** was a traditional trip through Europe, especially popular from the 16th to the 18th centuries, that young European aristocrats—mainly men—undertook as a kind of finishing education. Its purpose was to expose them to art, culture, history, and the classical heritage of Europe, particularly Italy, France, and sometimes Greece.
+
+[carousel]
 
 ![[img_philly_2022_062.png]]
 *Memorial to Admiral Sir Clowdisley Shovell - 1725, Sebastiano Ricci.  Shortly before 1722, Owen McSwiny, a bankrupt Irishman who had settled in Italy to escape his creditors, commissioned twenty-four large canvases from prominent Venetian and Bolognese painters as a commercial venture. By profession a theater impresario, he concocted this series of allegorical monuments commemorating recently deceased British monarchs and aristocrats, hoping that their wealthy heirs might purchase the works. McSwiny's "Tombs," as they came to be called, proved to be unintelligible; no one, not even the artists who painted them, ever had a clear notion of what the pictures represented. This ornate and fanciful memorial, for example, alludes only vaguely to the subject's naval career. The admiral himself does not appear, nor does the shield in the right foreground bear his exact coat-of-arms. Only the fountain hints at the maritime theme with its ancient ships' prows and rudders, statues of tritons riding dolphins, and a bas-relief of Neptune, god of the sea.*
 
 ![[img_philly_2022_063.png]]
-*Interior of St Peter's, Rome. Giovanni Paolo Panini, 1754. *
+*Interior of St Peter's, Rome. Giovanni Paolo Panini, 1754.*
 
 ![[img_philly_2022_064.png]]
 *The Repentant Magdalen, c1635 - According to the tenets of the 17th–century Catholic church, Mary Magdalene was an example of the repentant sinner and consequently a symbol of the Sacrament of Penance. According to legend, Mary led a dissolute life until her sister Martha persuaded her to listen to Jesus Christ. She became one of Christ's most devoted followers and he absolved her of her former sins.*
 
+[/carousel]
+
+
+[carousel]
+
 ![[img_philly_2022_044.jpeg]]
-***“Ships in Distress off a Rocky Coast” (1667) by Ludolf Backhuysen** is a dramatic Dutch Golden Age seascape depicting several ships struggling against a turbulent, stormy sea near jagged rocks. The painting captures the power and unpredictability of nature, with crashing waves and dark, brooding skies creating a sense of tension and danger. Backhuysen’s precise rendering of the ships and the dynamic movement of the water highlights both technical skill and emotional intensity, reflecting the Netherlands’ maritime culture and the perils faced by sailors in the 17th century *
+*“Ships in Distress off a Rocky Coast” (1667) by Ludolf Backhuysen is a dramatic Dutch Golden Age seascape depicting several ships struggling against a turbulent, stormy sea near jagged rocks. The painting captures the power and unpredictability of nature, with crashing waves and dark, brooding skies creating a sense of tension and danger. Backhuysen’s precise rendering of the ships and the dynamic movement of the water highlights both technical skill and emotional intensity, reflecting the Netherlands’ maritime culture and the perils faced by sailors in the 17th century*
 
 ![[img_philly_2022_065.png]]
 ***“The Northern Whale Fishery” by John Ward of Hull** is a British painting depicting the whaling industry, which was an important part of Britain’s maritime economy in the 18th and 19th centuries. Arctic seas.*
 
 ![[img_philly_2022_038.jpeg]]
-## The US Capitol & The National Mall 
+
+[/carousel]
+
+
+## The US Capitol, The National Mall and The White House
 
 Last time I visited I booked a proper Capitol tour, and even attended a congress session. This time though it was already closing, and I only admired it from afar. It's so beautiful!
 
@@ -322,9 +376,11 @@ WW2 memorial
 ![[img_philly_2022_046.jpeg]]
 *The White House, always crowded, can only be seen from afar*
 
-### The Natural History Museum
+## The Natural History Museum
 
 I dedicated my last morning on the 29th to the NHM, yet another of the Smithsonian Museums. Being a science nerd, I love all the exhibits, but here I'll try to show my highlights
+
+[carousel]
 
 ![[img_philly_2022_066.png]]
 *This graph is great. It puts into perspective how little time life as we know it has been around in Earth *
@@ -334,6 +390,10 @@ I dedicated my last morning on the 29th to the NHM, yet another of the Smithsoni
 
 ![[img_philly_2022_068.png]]
 
+[/carousel]
+
+[carousel]
+
 ![[img_philly_2022_050.jpeg]]
 *This one is amazing, a Burgess Shale slab. Here we can see what ancient life forms, whose fossils are definitely not preserved, looked like.*
 
@@ -341,24 +401,35 @@ I dedicated my last morning on the 29th to the NHM, yet another of the Smithsoni
 *Again, perspective. How insignificant we humans are!*
 
 ![[img_philly_2022_051.jpeg]]
+
+[/carousel]
+
 # Itinerary
 
 ![[img_philly_2022_052.jpeg]]
 
-May 22: Flew London -> PHL. Sightseeing Philly ; Liberty Hall
-May 23-27: ICRA conference and sightseeing in the evenings.
-May 28: Day trip to DC
-May 29: Half day in DC, train back to Philly and flight back to London
+* May 22: Flew London -> PHL. Sightseeing Philly ; Liberty Hall
+* May 23-27: ICRA conference and sightseeing in the evenings.
+* May 28: Day trip to DC
+* May 29: Half day in DC, train back to Philly and flight back to London
 
 ![[img_philly_2022_053.png]]
 
 # Random memories
 
 - I stayed a fancy hotel, since this was a company trip: the Sheraton Philadelphia Downtown. One day, late at night, I was starving so I had the terrible idea to go down to a convenience store to buy a snack. My phone's battery ran out, and I could not remember the way back, since I am very google maps dependent. I walked around for about an hour until I managed to see the **S** in a skyscraper: the hotel.
-- I remember the company I worked for required that I had to keep paper receipts of absolutely all transactions made with the corporate credit card. Thus, I came back with a stock of receipts that I had to manually scan one by one!
 - It was in this trip that I became a fan of Starbucks. I used to dislike coffee, but I started to drink Caramel Macchiato daily here. Ultimately this led to me liking coffee more and more, and today being a must every morning. 
-- All of my colleagues were spread in different hotels. For some reason the company booked flights and hotels via a third party, in my case a random UK company called Clarity Travel. They were super inefficient, picked the most expensive flights, and probably charged my company extra for the service. I freaked out because they reserved my ticket with name JEREMIASMR instead of just JEREMIAS, so I was scared that I would not be allowed to board the plane because of the MR suffix.
 - Philly was pretty boring but DC was fabulous, the museums are gorgeous and free, and the evening I spent in the park I remember a very youthful, lively atmosphere that was contagious.
 - This trip was very momentous from a professional perspective. I realised I had to refocus my career towards AI, since literally 80% of the papers and the general trend was towards "let's use ML to try to solve every task we have". And this was BEFORE the explosion of LLMs!
 
-I would not go back to Philly, I would not have visited at all had it not been for this conference. I would absolutely revisit DC though, it's a wonderful city and I still have many museums I have not been to.
+
+<!-- 
+
+- I remember the company I worked for required that I had to keep paper receipts of absolutely all transactions made with the corporate credit card. Thus, I came back with a stock of receipts that I had to manually scan one by one!
+- All of my colleagues were spread in different hotels. For some reason the company booked flights and hotels via a third party, in my case a random UK company called Clarity Travel. They were super inefficient, picked the most expensive flights, and probably charged my company extra for the service. I freaked out because they reserved my ticket with name JEREMIASMR instead of just JEREMIAS, so I was scared that I would not be allowed to board the plane because of the MR suffix.
+
+-->
+
+# Final Thoughts
+
+I would not go back to Philly, I would not have visited at all had it not been for this conference. I would absolutely revisit DC though, it's a wonderful city and I still have many museums I have not been to. DC is the ultimate museum geek destination!

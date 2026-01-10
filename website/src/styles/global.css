@@ -30,7 +30,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px; /* Increased base font size */
   scroll-behavior: smooth;
 }
 
@@ -38,7 +38,14 @@ body {
   font-family: var(--font-body);
   color: var(--color-text);
   background-color: var(--color-bg);
-  line-height: 1.7;
+  line-height: 1.8; /* More generous line height for readability */
+}
+
+/* Responsive font sizing */
+@media (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {

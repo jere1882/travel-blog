@@ -18,7 +18,7 @@ tags:
   - scotland
 main_image: img_edh_2022_002.jpg
 ---
-## Revisiting Edinburgh
+# Revisiting Edinburgh
 
 ![[img_edh_2022_044.png]]
 *Edinburgh Castle from Princes Street*
@@ -26,7 +26,10 @@ main_image: img_edh_2022_002.jpg
 In 2022 I managed to persuade my boyfriend to squeeze in a visit to Edinburgh in his already packed itinerary around Europe. Scotland is my favourite country in the world, and I even though I know that two days is not enough to even scratch the surface, I really wanted Leo to visit.
 
 Luckily we managed to capitalize on the long summer days and visit the most iconic landmarks of Edinburgh, the city where Harry Potter was born!
-## Itinerary
+
+[content_table]
+
+# Itinerary
 
 Day 1:
 * 5.45 AM train from London's King's Cross to Edinburgh Waverley
@@ -43,20 +46,22 @@ Day 2:
 * Dean Village
 * Beautiful Starbucks with Castle View
 * Ride back to London
-## Trip Journal
 
-### London to Edinburgh Train
+# Trip Journal
+
+## London to Edinburgh Train
 
 Our trip started in the best possible way, since our train's departing platform at King's Cross Station (London) was literally next to the platforms where the famous Platform 9 3/4 scenes of the Potter movies were filmed.
 
 ![[img_edh_2022_048.png]]
-A scene from first Potter movie
+*A scene from first Potter movie*
 
 ![[img_edh_2022_003.jpeg]]
 *The platforms where the scenes were filmed are usually restricted unless you have a train ticket that actually departs from there*
 
 We rode the LUMO train, which takes about 5 hours and costed £60 round trip. You can usually find cheaper fares for flights, but the train is by far a superior choice if you factor in travel times to and from the airports, given that both stations are very central.
-### Sightseeing: New Town, Old Town and The Royal Mile
+
+## Sightseeing: New Town, Old Town and The Royal Mile
 
 As soon as you climb out of Waverley Station, you find yourself in Edinburgh New Town, and you are immediately rewarded with the sight of many distinctive landmarks: Scott Monument and the Balmoral. We walked around the New and Old town, and then made for the castle as we had timed-slot entry tickets.
 
@@ -70,7 +75,7 @@ As soon as you climb out of Waverley Station, you find yourself in Edinburgh New
 *The Mercat Cross - Checkout this -[panoramic view](https://maps.app.goo.gl/gTzXTwyXBugqqouZ6)*
 
 ![[img_edh_2022_006.jpeg]]
-Charles II Statue and St Giles Cathedral as seen from Parliament Square
+*Charles II Statue and St Giles Cathedral as seen from Parliament Square*
 
 ![[img_edh_2022_007.jpeg]]
 *The buildings in the city all have this gloomy, dark aspect that makes it so atmospheric*
@@ -82,11 +87,10 @@ Charles II Statue and St Giles Cathedral as seen from Parliament Square
 
 ![[img_edh_2022_002.jpg]]
 *Another pic of the Grassmarket*
-### Edinburgh Castle
+
+## Edinburgh Castle
 
 The castle is the most distinctive and popular feature of the city, impressively perched atop a large rock and looking very much like Hogwarts School. You need to book tickets in advance, and pick a specific time slot for your visit. At the time of our visit in 2022, tickets costed £18.
-
-
 
 ![[img_edh_2022_035.png]]
 
@@ -94,7 +98,7 @@ We walked up the Castle hill, which is full or interesting shops and historical 
 
 I've visited castles with much more striking fortifications, and the average palace or castle in England will have much opulent interiors. That said, what makes this castle so important is the rich history and the symbolism it has for Scotland. The castle is the embodiment of Scottish national pride, and nowhere can that be felt more strongly than in the Crown Room where the Honours of Scotland are on display.
 
-#### Castle Gate
+### Castle Gate
 
 Inscribed atop the 1888 gates of Edinburgh Castle, a centuries-old warning can be read. The motto of the Kingdom of Scotland: **Nemo me inpune lacessit**, which translates from Latin as 'No one provokes me with impunity
 
@@ -105,7 +109,8 @@ Inscribed atop the 1888 gates of Edinburgh Castle, a centuries-old warning can b
 The motto is often associated with the thistle flower, which indeed cannot be harassed with impunity because it prickles.
 
 ![[img_edh_2022_033.png]]
-#### The Great Hall
+
+### The Great Hall
 
 **King James IV** built the Great Hall as an awe-inspiring stage for state banquets and ceremonies. Completed in 1512, it was a place for high politics, international democracy and feasting.  The king had little time to enjoy his new addition though, since he was killed in 1513 fighting to forces of King Henry VIII of England, his brother-in-law.
 
@@ -118,7 +123,7 @@ Grand state events took place here:
 
 ![[img_edh_2022_008.jpeg]]
 
-#### Crown Square and the Royal Palace
+### Crown Square and the Royal Palace
 
 Crown Square is arguably the most important square of the castle, surrounded by:
 * The Great Hall
@@ -166,7 +171,8 @@ The **Stone of Destiny** (aka the Stone of Scone) is an ancient sandstone block 
 *The stone has been recently moved, in 2024, from Edinburgh to Perth*
 
 The Honours have had a turbulent past. They were removed from the castle and hidden in 1651–60 to keep them from Oliver Cromwell’s army. In 1707, following the Act of Union between England and Scotland, they were locked in a chest and sealed away. It was only in 1818 that Sir Walter Scott, the famous novelist, rediscovered the Honours.
-#### The Scottish Monarchy
+
+### The Scottish Monarchy
 
 The first King of a unified Scotland is traditionally considered to be Kenneth MacAlpin (c843-858), being the start of ruling dynasties (House of Alpin, Dunkeld). 
 
@@ -193,14 +199,14 @@ Escaping captivity, she sought refuge in **England**, hoping for support from he
 ![[img_edh_2022_041.png]]
 *Portrait of Mary at 17 years old*
 
-#### St Margaret's Chapel
+### St Margaret's Chapel
 
 Scotland’s royal family once knelt to worship in this serene private chapel. King David I built the chapel around 1130 and named it for his mother. Queen Margaret, who was said to have performed many acts of charity, was canonised by Pope Innocent IV in 1250.
 
 ![[img_edh_2022_042.png]]
 *The stained glass windows are great. From left to right: The lady St Margaret herself, St. Columba, William Wallace.*
 
-#### Castle Defences
+### Castle Defences
 
 ![[img_edh_2022_011.jpeg]]
 *Half moon battery defences*
@@ -210,15 +216,22 @@ Scotland’s royal family once knelt to worship in this serene private chapel. K
 
 ![[img_edh_2022_013.jpeg]]
 
-![[img_edh_2022_014.jpeg]]*Leo posing :)*
-#### National War Museum
+![[img_edh_2022_014.jpeg]]
+*Leo posing*
+
+### National War Museum
 There were a few war museums throughout the castle, I loved the vintage posters from this one:
+
+[carousel]
 
 ![[img_edh_2022_049.jpg]]
 
 ![[img_edh_2022_043.png]]
 *A little misleading, wouldn't you say?*
-### Greyfriars Kirkyard
+
+[/carousel]
+
+## Greyfriars Kirkyard
 
 One of my favourite places in all of Edinburgh, I just can't help but come back here every time I visit. Most people just come here to visit the Greyfriars Bobby statue, but what makes the kirkyard so evocative about me are the Harry Potter connections.
 
@@ -235,24 +248,36 @@ After that, I took Leo to Nicolson's, one of the legendary coffee shops where un
 
 ![[img_edh_2022_024.jpeg]]
 *J K Rowling's hand-prints in the Edinburgh City Chamgers*
-#### Haymarket Neighbourhood
+
+## Haymarket Neighbourhood
 
 We stayed the night at The Haymarket Hotel, in a slightly quieter and more local area. I love the terraced houses and the gloomy dark atmosphere. In fact the hotel rooms look just like the rooms of the neighbourhood homes, which gives it a very authentic feeling.
+
+[carousel]
 
 ![[img_edh_2022_019.jpeg]]
 
 ![[img_edh_2022_020.jpeg]]
 
 ![[img_edh_2022_021.jpeg]]
+
+[/carousel]
+
 ### St Giles' Cathedral
 
 We visited the interior of the High Kirk of Edinburgh, which has stood here since about 1124. Interestingly, St Giles’ Cathedral is a Church of Scotland (Presbyterian Protestant) church, not part of the Roman Catholic or Anglican (Episcopal) traditions. 
 
+[carousel]
+
 ![[img_edh_2022_022.jpeg]]
+
 ![[img_edh_2022_045.png]]
 
 ![[img_edh_2022_023.jpeg]]
-### Calton Hill
+
+[/carousel]
+
+## Calton Hill
 
 One of Edinburgh's famous viewpoints, a UNESCO World Heritage Site landmark, easily distinguishable from its elevated position and its monuments.
 
@@ -262,7 +287,7 @@ One of Edinburgh's famous viewpoints, a UNESCO World Heritage Site landmark, eas
 ![[img_edh_2022_026.jpeg]]
 *National Monument of Scotland (left, 1820) ; Nelson Monument (right, ~1815)*
 
-### Castle Street, Prince St.
+## Castle Street, Prince St.
 
 ![[img_edh_2022_046.png]]
 *View of the castle at the end of Castle St*
@@ -270,7 +295,8 @@ One of Edinburgh's famous viewpoints, a UNESCO World Heritage Site landmark, eas
 Checkout these amazing google street views:
 * [Castle St.](https://maps.app.goo.gl/wQ7NLWSFHWMNG86D7)
 * [Prince St](https://maps.app.goo.gl/dupLK88fK6Qo4Ro7A)
-### Dean Village
+
+## Dean Village
 
 One of Edinburgh's most picturesque and tranquil spots of the city, about 1 km from northwest of Princes Street. Dean Village was originally a wheat-milling village, dating back to at least the 12th century.
 
@@ -279,7 +305,8 @@ One of Edinburgh's most picturesque and tranquil spots of the city, about 1 km f
 The area was very photogenic, with many footpaths going into green areas and near the river. We didn't stay long though, since we found the old and new town much more scenic and we wanted to spend our last hours in the city there.
 
 ![[img_edh_2022_028.jpeg]]
-### Back to London
+
+## Back to London
 
 We spent a couple of hours, until the train time, sitting at the best Starbucks in the world at Princes Street, with a privileged view of the castle:
 
@@ -289,3 +316,11 @@ We spent a couple of hours, until the train time, sitting at the best Starbucks 
 ![[img_edh_2022_030.jpeg]]
 
 We caught a late (8 PM) train back to London, exhausted yet really happy that we managed to pack so many highlights in just two days. I wish we had had a few more days to visit the city at a more relaxed pace, but I'm glad I was able to introduce Scotland, my favourite country, to Leo; even if only a glimpse.
+
+# Final Thoughts
+
+Visiting Edinburgh always feels like stepping into a fantasy world, and I’m grateful I had the chance to experience that magic with my partner. The long summer days made it easy to cover the main sights in just two days, though I’d honestly recommend allowing at least three or four to really take it all in at a slower, more enjoyable pace.
+
+That first trip wasn’t my last. I’ve returned several times over the years, and each visit has felt a little different. Edinburgh is easy to reach, with a well-connected airport and plenty of low-cost flights from across Europe, which makes going back surprisingly simple.
+
+No matter the season or the weather, Edinburgh always carries that dark and quietly magical atmosphere. Wandering its stone streets and shadowed closes still feels a bit like stepping into a Harry Potter world, and that familiar sense is exactly why I keep returning. And that’s why I keep coming back.

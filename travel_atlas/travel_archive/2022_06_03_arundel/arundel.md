@@ -25,19 +25,25 @@ One of the most stunning castles I’ve ever visited is **Arundel Castle**, a me
 
 The castle sits in **Arundel**, a small historic market town in **West Sussex**, about 90 kilometres southwest of London (1 hour 40 minutes by train from Central London). The town itself is cute and atmospheric, but it is the castle that really makes the train journey work making. Founded in 1067, **Arundel Castle** has been beautifully restored and remains one of England’s best-preserved, still-inhabited castles, offering amazing views of the River Arun and the lush countryside beyond.
 
-## Train ride
+[content_table]
+
+# Getting to Arundel
 
 We purchased round trip tickets from London Victoria to  Arundel station at £34,50 (tip: get an extra 30% discount if you qualify for a railcard). At around 11 am we were arriving at the tiny Arundel Station, and we caught a first glimpse of the monumental castle from afar.
+
+[carousel]
 
 ![[img_arundel_2022_002.jpeg]]
 
 ![[img_arundel_2022_001.jpeg]]
 
+[/carousel]
+
 The castle is a short walk away from the train station, through the little town:
 
 ![[img_arundel_2022_003.jpeg]]
 
-## Intro to Arundel Castle
+# Intro to Arundel Castle
 
 There are nearly 1,000 years of history at this great castle, situated in magnificent grounds overlooking the River Arun in West Sussex and built at the end of the 11th century by Roger de Montgomery, Earl of Arundel.
 
@@ -49,7 +55,7 @@ The castle evolved over time from a wooden fortress, into a stone fortress and t
 
 ![[img_arundel_2022_025.jpeg]]
 
-## Touring the castle fortifications
+# Touring the castle fortifications
 
 The castle is HUGE, as you can gather from the following map. It recommend allowing plenty of time to visit thoroughly, we spent about 6 hours and I could've stayed longer.
 
@@ -57,11 +63,13 @@ The castle is HUGE, as you can gather from the following map. It recommend allow
 
 We started by touring the medieval defences: walls, towers, the Barbican and the Keep.
 
-### The Castle Keep
+## The Castle Keep
 
 The Keep is the oldest part of the castle, dating back to the 11th century. Located in a hill, it gives a sense of the castle's original defensive role, and from atop you get fantastic views over the town of Arundel and the River Arun.
 
 ![[img_arundel_2022_007.jpeg]]
+
+[carousel]
 
 ![[img_arundel_2022_008.jpeg]]
 
@@ -70,9 +78,12 @@ The Keep is the oldest part of the castle, dating back to the 11th century. Loca
 ![[img_arundel_2022_009.jpeg]]
 *The courtyard*
 
+[/carousel]
+
 ![[img_arundel_2022_010.jpeg]]
 *The courtyard from above*
-### Guardroom and Battlements
+
+## Guardroom and Battlements
 
 The Guardroom is part of the of the original defensive structure, and it's where the guards would be stationed and weapons stored.
 
@@ -85,14 +96,14 @@ The exhibit shows armours, spears, swords, ballistas, and all sorts of medieval 
 ![[img_arundel_2022_015.jpeg]]
 
 ![[img_arundel_2022_006.jpeg]]
-### The Private Chapel
+## The Private Chapel
 
 Commissioned by the 15th Duke of Norfolk, the Chapel was a clear display of the family's strong Catholic faith. The foundation stone was laid in 1894 by the Archbishop of Southwark in a simple ceremony that carried great significance at that time. 
 
 ![[img_arundel_2022_016.jpeg]]
-## Touring the state rooms
+# Touring the state rooms
 
-### The Baron's hall
+## The Baron's hall
 
 The Baron's Hall is a medieval-style grand hall, reflecting the castle’s history as a noble residence. This vast room, begun in 1893 and completed in 1898, occupies the site of the medieval hall of the FitzAlan Earls of Arundel as well as that built by the 11th Duke of Norfolk. 
 
@@ -100,8 +111,9 @@ The Baron's Hall is a medieval-style grand hall, reflecting the castle’s histo
 ![[img_arundel_2022_017.jpeg]]
 
 ![[img_arundel_2022_018.jpeg]]
-*A Gobelin tapestry, 6.6 x 4.2 meters, from the "Nouvelles Indes" ("New Indies" ) series, woven at the Gobelins workshop in Paris around the 1750s. Acquired by the 9th Duke, the tapestries depict exotic scenes of nature and people from Brazil. *
-## State Rooms
+*A Gobelin tapestry, 6.6 x 4.2 meters, from the "Nouvelles Indes" ("New Indies" ) series, woven at the Gobelins workshop in Paris around the 1750s. Acquired by the 9th Duke, the tapestries depict exotic scenes of nature and people from Brazil.*
+
+# State Rooms
 
 Each room is carefully preserved and gives insight into how the aristocracy lived across different eras. There's the Drawing Room, decorated in opulent Victorian style; and the Dining Room, which showcases portraits and tapestries alongside long oak tables. Bedrooms and bathrooms are preserved as well.
  
@@ -118,7 +130,7 @@ Each room is carefully preserved and gives insight into how the aristocracy live
 
 ![[img_arundel_2022_023.jpeg]]
 *Queen Victoria, standing holding an orb and the scepter. I image-searched for matches, and I found that there are several of these around the world. [This one](https://www.gildings.co.uk/auction/lot/42-elkington--co-after-joseph-edgar-boehm-queen-victoria-bronze/?lot=70957&au=168&sd=1) auctioned in 2022 for 13000 GBP. Apparently these models are based on a commission for the queen's Golden Jubilee.*
-## The Library
+# The Library
 
 My favourite room in the whole castle was perhaps the library. Set across two levels, it’s framed by intricate Gothic detailing, decorative ironwork, and towering bookcases. 
 
@@ -128,7 +140,7 @@ My favourite room in the whole castle was perhaps the library. Set across two le
 ![[img_arundel_2022_024.jpeg]]
 *I can't help thinking of the restricted section at Hogwarts Library*
 
-### The grand staircase
+## The grand staircase
 
 Cathedral like arches, soaring windows and intricate stonework make the Grand Staircase a true Gothic Revival masterpiece. With towering tapestries and family portraits, you are tempted to stop and take pictures at every step. In fact, we did! 
 
@@ -137,15 +149,16 @@ Cathedral like arches, soaring windows and intricate stonework make the Grand St
 
 ![[img_arundel_2022_047.png]]
 *Picture from the official website!*
-## Castle Grounds
-
+#
 The castle grounds are massive, and there are a bunch of attractions scheduled at different times. You can get to see medieval fighting, falconry, take archery lessons, etc etc.
 
-### Medieval Fight Time!
+## Medieval Fight Time!
 
 We were definitely not prepared for the tremendous show that the locals put up. Over 60 people fully dressed in very realistic medieval costumes, wielding swords shields and bows, performed all sorts of fight stunts. They looked very real, I bet they were really trying to win.
 
 A guy dressed as a herald of sorts guided the proceedings. First, a group of Norman Soldiers fully armoured and wielding shields and swords had to resist wave after wave of projectiles thrown at them, while advancing towards the townsfolk shooting them. It was very realistic, they were firing at about 40 meters first, really far away.
+
+[carousel]
 
 ![[img_arundel_2022_026.jpeg]]
 *The soldier's team*
@@ -156,10 +169,12 @@ A guy dressed as a herald of sorts guided the proceedings. First, a group of Nor
 ![[img_arundel_2022_039.png]]
 *Shotting at the soldiers*
 
+[/carousel]
+
 The shooting was followed by an all-out fight with capture the flag premise. Super fun, and I can tell these guys were really trying to hit one another! It was hilarious, skirmishes all over the place. Apparently this is a regular attraction because it's featured in the castle's website:
 
 ![[img_arundel_2022_040.png]]
-### Gardens
+## Gardens
 
 The gardens were huge, meticulously maintained and blooming! I've been to few castle grounds more beautiful than these. Infinite photo spots, flower fields, fountains, you name it.
 
@@ -185,16 +200,23 @@ From the website:
 
 *"The gardens provide one of the most stunning Spring displays in the country including Arundel Castle’s famous Tulip Festival. The garden team have planted over 1.4 million bulbs over the past 12 years, includes narcissus, tulips, alliums and camassias."*
 
-## Cathedral
+# Cathedral
 
 The cathedral, founded in 1873, is the second main attraction of the town. Although the castle took most of our day, we managed to quickly visit it in our way back to the train platform. 
+
+[carousel]
 
 ![[img_arundel_2022_036.jpeg]]
 
 ![[img_arundel_2022_037.jpeg]]
 
 ![[img_arundel_2022_012.jpeg]]*View of the Cathedral from the castle*
+
+[/carousel]
+
 # Arundel Castle History
+
+> Skip this section if you are not a history buff!
 
 Here is an overview of the main eras the castle has been through:
 
@@ -241,6 +263,8 @@ Facts about British nobility that I did not know about:
 * Today, nearly all new titles are life peerages, meaning they expire when the person dies, no inheritance, no dynastic expansion.
 * It is astounding to see the contrast with France, where all these medieval concepts of nobility, titles, peerage, inheritance to the first son, etc; was wiped out. England’s nobility survived through gradual constitutional change, legal protections, and political integration, keeping their titles and estates, while France’s revolution abolished noble privileges and often seized or destroyed their property.
 
-## Conclusion
+# Final Thoughts
 
-Arundel Castle is absolutely worth the trip: grand, atmospheric, and full of history. Between the medieval walls, lavish interiors, and blooming gardens, it’s one of the most impressive castles in England. I’d go back in a heartbeat.
+Arundel Castle is absolutely worth the trip: grand, atmospheric, and full of history. Between the medieval walls, lavish interiors, and blooming gardens, it’s one of the most impressive castles in England. 
+
+It makes for a great day trip from London, especially in Spring or Summer in order to enjoy the best gardens views. I’d go back in a heartbeat!

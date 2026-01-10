@@ -229,6 +229,13 @@ def main():
     dry_run = '--execute' not in sys.argv
     force = '--force' in sys.argv
     
+    # Check for specific folder argument
+    target_folder = None
+    for arg in sys.argv:
+        if arg not in ['--execute', '--force'] and not arg.endswith('.py'):
+            target_folder = arg
+            break
+    
     # Get paths
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
@@ -244,28 +251,34 @@ def main():
     print("=" * 60)
     print(f"Source (EN): {en_archive}")
     print(f"Target (ES): {es_archive}")
+    if target_folder:
+        print(f"Target folder: {target_folder}")
     print()
     
     if dry_run:
         print("DRY RUN MODE - No files will be translated.")
         print("Use --execute to actually translate files.")
-        print("Use --force to force re-translation of all files.")
+        print("Use --force to force re-translation.")
+        print("Pass a folder name as argument to translate only that folder.")
     else:
         print("EXECUTE MODE - Files will be translated!")
         if force:
-            print("FORCE MODE - All files will be re-translated!")
+            print("FORCE MODE - Files will be re-translated!")
     print()
     
     # Load translation cache
     cache = load_translation_cache(project_root)
     
-    # Process each trip folder
+    # Process trip folder(s)
     total_translated = 0
     total_skipped = 0
     
-    for folder in sorted(en_archive.iterdir()):
-        if not folder.is_dir():
-            continue
+    if target_folder:
+        # Process only the specified folder
+        folder = en_archive / target_folder
+        if not folder.exists() or not folder.is_dir():
+            print(f"ERROR: Folder not found: {folder}")
+            sys.exit(1)
         
         print(f"Processing: {folder.name}")
         es_folder = es_archive / folder.name
@@ -276,10 +289,25 @@ def main():
         
         total_translated += translated
         total_skipped += skipped
-        
-        # Rate limiting for API calls
-        if not dry_run and translated > 0:
-            time.sleep(1)  # Be nice to the API
+    else:
+        # Process all folders
+        for folder in sorted(en_archive.iterdir()):
+            if not folder.is_dir():
+                continue
+            
+            print(f"Processing: {folder.name}")
+            es_folder = es_archive / folder.name
+            
+            translated, skipped = process_trip_folder(
+                folder, es_folder, cache, dry_run, force
+            )
+            
+            total_translated += translated
+            total_skipped += skipped
+            
+            # Rate limiting for API calls
+            if not dry_run and translated > 0:
+                time.sleep(1)  # Be nice to the API
     
     # Save cache
     if not dry_run:

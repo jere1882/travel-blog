@@ -8,6 +8,7 @@ countries:
   - Chile
 cities:
   - Hanga Roa
+  - Rapa Nui National Park
 social: Friends
 airline:
   - Latam
@@ -29,13 +30,16 @@ Set adrift in the immensity of the Pacific, over 3000 km from the nearest contin
 ![[img_easter_island_2025_065.jpg]]
 *Partially buried moai at Rano Raraku quarry*
 
-Visiting Easter Island had been on my bucket list since my teenage years, a fascination strengthened further after travelling through Hawaiʻi and French Polynesia, two distant corners of the same Polynesian world. So when the opportunity finally came, I didn’t hesitate.
+Visiting Easter Island had been on my bucket list since my teenage years, a fascination strengthened even more after travelling through Hawaiʻi and French Polynesia, two distant corners of the same Polynesian world. So when the opportunity finally came, I didn’t hesitate.
 
 Together with my friend Nadia, I spent four unforgettable days on Rapa Nui: mornings scuba-diving, afternoons among ancient archaeological sites, evenings watching the sun fade behind the waves, and nights filled with fresh tuna and cocktails. In this post I’ll share everything we saw, did, and learned!
 
 
 ![[img_easter_island_2025_044.png]]
 *Sunset in Ahu Tongariki*
+
+[content_table]
+
 # A dot in the immensity of the Pacific Ocean
 
 It's easy to underestimate the remoteness of Easter Island, but don't be deceived: there's no human settlement around for **thousands** of kilometres, the closest being Pitcairn Islands at 2000 km with just about 40 permanent residents. That's part of the draw of visiting, to literally get away from everything.
@@ -57,21 +61,25 @@ We spent about 4 full days in the island, and since we visited in late November,
 *A map of Easter Island, a blue dot for each picture I took during my visit.*
 
 Day 1, Nov 27 
-- Flew SCL -> IPC, arriving at 3 PM
-- Strolled around Ahu Tahai & Hanga Roa Town
+* Flew SCL -> IPC, arriving at 3 PM
+* Strolled around Ahu Tahai & Hanga Roa Town
+
 Day 2, Nov 28
 * Morning: Two-tank Dive at Hanga Roa Bay
 * SW sites: Orongo Village, Rano Kau volcano, Vinapu 
 * Anakena Beach ; Ahu Huri a Urenga
 * Dinner and live music at Ohi Sushi
+
 Day 3, Nov 29
 * Morning: Two-tank Dive at Hanga Roa bay
 * NE sites: Rano Raraku ; Ahu Tongariki ;Vaihu
 * Island round trip by car, Anakena
+
 Day 4, Nov 30
 * Interior sites: Ana Te Pahu (Caves) ; Ahu a Kivi - Ahu a Tiu ;  Puna Pau
 * NW Sites: Papa Vaka petroglyphs; Te Pito Kura ; Ovahe Beach
 * Anakena, Ahu Ature Hora / Ahu Nau Nau / Ahu Ature Huki
+
 Day 5, Dec 1
 * Sunset tour to Tongariki
 * Fly back to Santiago
@@ -80,12 +88,10 @@ Day 5, Dec 1
 
 ## Arriving at Easter Island
 
-There is a single town in Easter Island, called Hanga Roa. The airport is located at the southern edge of the town, and the host of the Cottage we booked was waiting for us when we arrived.
+There is a single town in Easter Island, called Hanga Roa. The airport is located at the southern edge of the town, and the host of the Cottage we booked was waiting for us when we arrived. He drove us through town, and stopped by the visitor centre so that we could purchase our National Park tickets (USD 100 each) before dropping us at the cottage.
 
 ![[img_easter_island_2025_010.png]]
 *Easter Island greeted us with blue skies and a tiny wooden airport, very reminiscing to the airports in French Polynesia*
-
-The friendly host of our cottage drove us through town, and stopped by the visitor centre so that we could purchase our National Park tickets (USD 100 each) before dropping us at the cottage.
 
 We stayed really close to Ahu Tahai, and had direct view of the sea and sunset. I'd say anywhere near Hanga Roa bay is a good place to stay, since most restaurants and touristic services are there.
 ## Tahai Ceremonial Complex
@@ -101,11 +107,15 @@ The first thing we did after we dropped our luggage, was come here and have out 
 
 Tahai is one of my favourite places on the island because it is extremely easy to reach from the town, literally a 5 minute walk, and everyone in town comes here to see the sunset. 
 
+[carousel]
+
 ![[img_easter_island_2025_013.png]]
 *Sunset at Tahai, an experience we repeated almost every day*
 
 ![[img_easter_island_2025_011.png]]
 *The complex is super large, and even though the moai here are in poor condition, their ruined state is somehow romantic*
+
+[/carousel]
 
 ![[img_easter_island_2025_014.png]]
 *The moai at Tahai are not very well preserved*
@@ -116,18 +126,23 @@ The Rano Raraku volcano is one of the most wonderful and extraordinary archaeolo
 
 
 ![[img_easter_island_2025_034.png]]
-*The Rano Raraku volcano as seen from above. It is composed of a unique type of rock on the island known as the Lapilli tuff, and became the quarry where almost all of the 1000 moai were sculpted. *
+*The Rano Raraku volcano as seen from above. It is composed of a unique type of rock on the island known as the Lapilli tuff, and became the quarry where almost all of the 1000 moai were sculpted.*
 
 ![[img_easter_island_2025_035.png]]
 
 The enormous figures and the quarries of the volcano surpass any expectation and personally I was speechless when contemplating this wonder of humanity.
 
-![[img_easter_island_2025_036.png]]
+[carousel]
 
-Honestly, pictures don’t make justice to this place. There are dozens moais of various shapes and sizes, some with very refined and masterful features, some monumental in size, some of them half buried, others standing proud, others half-done.
+![[img_easter_island_2025_036.png]]
+*The body of many moais is buried under sediment*
 
 ![[img_easter_island_2025_037.png]]
 *The islanders recorded their first view of the European ships in this moai*
+
+[/carousel]
+
+Honestly, pictures don’t make justice to this place. There are dozens moais of various shapes and sizes, some with very refined and masterful features, some monumental in size, some of them half buried, others standing proud, others half-done.
 
 ![[img_easter_island_2025_038.png]]
 *The black dots under the volcano are actually all moais!*
@@ -182,24 +197,19 @@ According to oral tradition, the priest of King Hotu Matu had a dream in which t
 ![[img_easter_island_2025_057.png]]
 *These were one of the first maois to be restored in the island in 1960*
 
-## Puna Pau
-
-Worth a small detour, Puuna Pau is the quarry where the red topknots (Pukao) of the moai were extracted from. You can still see a number of huge Pukao in the floor.
-
-![[img_easter_island_2025_058.png]]
-## Vaihu
-
-Worth a quick stop, Vaihu is an archaological site that works as an open air museum with restored traditional houses, shelter for crops and other ruins.
-
-![[img_easter_island_2025_051.png]]
-
-![[img_easter_island_2025_052.png]]
-*Waves breaking at the rocky shore*
 ## Orongo Ceremonial Village
 
 Between the 18 and 19th Centuries, Orongo was the centre of the *birdman cult*, whose defining ritual was an annual race to bring the first manutara egg back undamaged from the nearby Monu Nui to Orongo. The ritual defined who would be the spiritual leader of the island for the next year.
 
+[carousel]
+
 ![[img_easter_island_2025_020.png]]
+*Terraced buildings at Orongo*
+
+![[img_easter_island_2025_021.png]]
+*closeup to the entry of one of the buildings. People had to crawl in*
+
+[/carousel]
 
 The dangerous race often had dead participants, since it involved going down the 300m cliff, swimming to the motu (sharks involved), picking the egg, and coming back.
 
@@ -208,7 +218,7 @@ The dangerous race often had dead participants, since it involved going down the
 
 Today, a visit to Orongo involves driving up Rano Kau volcano and walking around the caldera where the traditional stone structures have been restored.
 
-![[img_easter_island_2025_021.png]]
+
 
 It is fascinating to me how this society found a way to balance power and leadership by setting up a contest between champions rather than outright war.
 ## Rano Kau
@@ -224,25 +234,32 @@ Solidly in my top-3 highlights of this trip is the mesmerizing crater of the ext
 
 ![[img_easter_island_2025_025.png]]
 *Sea view from the crater viewpoint. Can you see the rain falling at the distance?*
-## Vinapu
-
-Another archaeological site, worth a short detour. Here you can see an imposing ahu with many fallen moai. Fallen moai are an evocative sight to me, they convey certain melancholy for what was lost.
-
-Most moais were toppled during civil wars, before the Europeans first arrived. 
-
-![[img_easter_island_2025_026.png]]
 
 ## Anakena Beach & Ahu Nau Nau
 
 Anakena is the main beach of the island, and it seriously exceeded my expectations. White sand beach, loads of palm trees, crystal clear water, three nice restaurants, and plenty of room for hundreds of tourists if needed. 
 
-![[img_easter_island_2025_028.png]]
+[carousel]
 
 ![[img_easter_island_2025_027.png]]
+*Anakena from a nearby hill*
+
+![[img_easter_island_2025_028.png]]
+*Path leading to the beach from the parking lot*
+
+[/carousel]
 
 To top it up, five of the best preserved moais in the island are right there at a short walk distance: Ahu Ature Hoa (also known as Ahu Nau Nau)
 
+[carousel]
+
 ![[img_easter_island_2025_029.png]]
+*Ahu Nau Nau*
+
+![[img_easter_island_2025_031.png]]
+*Can you make out the tattoos in their backs?*
+
+[/carousel]
 
 When the statues were knocked down during the clashes between the various clans of the island, **they were left buried in the sand on the beach**, which allowed them to be more protected from erosion than the others.
 
@@ -250,30 +267,8 @@ When the statues were knocked down during the clashes between the various clans 
 
 The restoration work carried out between 1978 and 1980 by the team led by the Rapanui archaeologist Sergio Rapu
 
-![[img_easter_island_2025_031.png]]
-*Can you make out the tattoos in their backs?*
-
 ![[img_easter_island_2025_064.png]]
 *An original moai eye was found here during excavations*
-## Ahu Huri a Urenga
-
-This lone moai is located inline, in an agricultural settlement zone. It has the peculiarity of being the only moai with four hands.
-
-![[img_easter_island_2025_032.png]]
-
-## Driving around the island
-
-A very interesting experience was to drive around the island, seeing lone toppled moais in the south coast, dramatic coastal views, loads of cows and wild horses.
-
-![[img_easter_island_2025_053.png]]
-
-![[img_easter_island_2025_054.png]]
-
-## Te Pito Kura
-
-I really liked this site, which felt both dramatic and romantic at once. A lone, fallen moai lies in a remote coast; its Pukao lying right in front of him, and the wakes of the sea breaking behind him.
-
-![[img_easter_island_2025_061.png]]
 
 ## Ovahe Beach
 
@@ -281,10 +276,15 @@ I wish we had had more time to spend an afternoon at little, hidden Ovahe Beach.
 
 The beach lies under a tall cliff, it's considerably less crowded than Anakena and the water was perfect.
 
+[carousel]
+
 ![[img_easter_island_2025_062.png]]
 *Ovahe beach is the sandy portion that can be seen distantly in this picture*
 
 ![[img_easter_island_2025_063.png]]
+*Bathing*
+
+[/carousel]
 
 ## Scuba Diving
 
@@ -297,10 +297,80 @@ On the down side, the marine life is a little scarce. The typical small reef fis
 Tip: I was rather upset that the tour agency did not take me beyond the bay. They claimed they need at least 4 advanced divers to go outside the bay. I wish I had waited last minute to see which agency had enough people.
 
 ![[img_easter_island_2025_017.png]]
-*The underwater moai. Can you see the moai? :) *
+*The underwater moai. Can you see the moai?*
 
 ![[img_easter_island_2025_018.png]]
 *closeup of a puffer fish*
+
+## Secondary sites
+
+### Ahu Huri a Urenga
+
+This lone moai is located inline, in an agricultural settlement zone. It has the peculiarity of being the only moai with four hands.
+
+![[img_easter_island_2025_032.png]]
+
+### Puna Pau
+
+Worth a small detour, Puuna Pau is the quarry where the red topknots (Pukao) of the moai were extracted from. You can still see a number of huge Pukao in the floor.
+
+![[img_easter_island_2025_058.png]]
+
+### Vaihu
+
+Worth a quick stop, Vaihu is an archaological site that works as an open air museum with restored traditional houses, shelter for crops and other ruins.
+[carousel]
+![[img_easter_island_2025_051.png]]
+*Traditional boat-shaped houses*
+
+![[img_easter_island_2025_052.png]]
+*Waves breaking at the rocky shore*
+[/carousel]
+
+### Driving around the island
+
+A very interesting experience was to drive around the island, seeing lone toppled moais in the south coast, dramatic coastal views, loads of cows and wild horses.
+
+[carousel]
+
+![[img_easter_island_2025_053.png]]
+*Yet another fallen moai*
+
+![[img_easter_island_2025_054.png]]
+*It's not every day that you see cows bathing in the sea*
+
+[/carousel]
+
+### Papa Vaka
+
+A minor archaeological site where you can see petroglyphs.
+
+![[img_easter_island_2025_060.png]]
+
+### Vinapu
+
+Another archaeological site, worth a short detour. Here you can see an imposing ahu with many fallen moai. Fallen moai are an evocative sight to me, they convey certain melancholy for what was lost.
+
+Most moais were toppled during civil wars, before the Europeans first arrived. 
+
+![[img_easter_island_2025_026.png]]
+
+### Te Pito Kura
+
+I really liked this site, which felt both dramatic and romantic at once. A lone, fallen moai lies in a remote coast; its Pukao lying right in front of him, and the wakes of the sea breaking behind him.
+
+![[img_easter_island_2025_061.png]]
+
+### Caves
+
+Many tour guides try to sell cave tours, which I was not very keen on doing but ended up going anyways, since the guide decided randomly to take us.
+
+If you are into large underground caves, and gardens growing within caves, this may be a good option to include in your schedule. Personally, I would be skipped it.
+
+![[img_easter_island_2025_055.png]]
+
+# Practical tips
+
 ## Hanga Roa Town
 
 The town has a number of very good restaurants and provides all basic services you would expect to find in the continent: bakeries, coffee shops, ATMs, grocery stores. This is no minor feat, considering how remote this place is.
@@ -308,32 +378,21 @@ The town has a number of very good restaurants and provides all basic services y
 I would not call the town pretty, it is a little rough around the edges, but I was pleasantly surprised at how good the infrastructure and restaurants were compared to e.g. French Polynesia.
 
 ![[img_easter_island_2025_015.png]]
-Drinking a jar of Sangria in Hanga Roa Bay
+*Drinking a jar of Sangria in Hanga Roa Bay*
 
 I enjoyed all my meals so much, mainly because you can order freshly caught tuna pretty much everywhere, and it's invariably delicious.
+
+[carousel]
 
 ![[img_easter_island_2025_019.png]]
 *Expect to pay 25000 CLP at a casual restaurant and 40000 CLP at a fancy one*
 
-
 ![[img_easter_island_2025_059.png]]*Anakena Beach has three good restaurants, but beware they are a little more expensive than in Hanga Roa.*
+
+[/carousel]
 
 ![[img_easter_island_2025_033.png]]
 *I'd buy every morning at flat white at this specialty coffee shop*
-
-## Caves
-Many tour guides try to sell cave tours, which I was not very keen on doing but ended up going anyways, since the guide decided randomly to take us.
-
-If you are into large underground caves, and gardens growing within caves, this may be a good option to include in your schedule. Personally, I would be skipped it.
-
-![[img_easter_island_2025_055.png]]
-
-## Papa Vaka
-
-A minor archaeological site where you can see petroglyphs.
-
-![[img_easter_island_2025_060.png]]
-# Practical tips
 
 ## Guide requirement
 
@@ -366,11 +425,13 @@ Taking into account how remote the island is, I was expecting even higher prices
 | Flat White at a Specialty Coffee                   | CLP 4700  |
 
 You can pay everything by card, even tips (10%) at restaurants. There are two ATMs, and we used one successfully. People will charge you in CLP.
-# Conclusion
+# Final Thoughts
 
 My trip to Rapa Nui surpassed all my expectations. The moai were far more monumental and magical than I had imagined, and their sheer number left me in awe. I encountered wild, untamed nature both atop the Rano Kau volcano and beneath the waves while scuba diving along the vast coral reef.
 
 I’m grateful to have fulfilled my dream of visiting this remote, almost mythical place, and even more so to have shared the experience with my wonderful friend Nadia. Even though I will not come back, since I've had my share of Moais for a lifetime, I will cherish the memory of the few days I spent exploring this remote corner of the world.
+
+> The following sections are suitable for history nerds only!
 
 # Appendix: History of Rapa Nui
 
@@ -421,7 +482,7 @@ By the late 19th century, Rapa Nui was annexed by **Chile (1888)**, beginning a 
 
 Today, Rapa Nui is a **Chilean territory with strong Indigenous identity**, a balance of modern life and cultural revival. Moai restoration projects, archaeological protection, language preservation, and discussions over autonomy define the modern stage.
 
-Stage 4 is the only one that is properly documented, since Europeans had written journals.
+Stage 4 is the only one that is properly documented, since Europeans had written journals. Here are my favourite journal extracts:
 
 ### Jacob Roggeveen Journal, 1722
 
@@ -448,18 +509,17 @@ James Cook was the third European to disembark at Rapa Nui. He wrote:
 (...) They observed that this side of the island was full of those gigantic statues so often mentioned; some placed in groupes on platforms of masonry, others single, fixed only in the earth, and that not deep; and these latter are, in general, much larger than the others. (...) In all this excursion, as well as the one made the preceding day, only two or three shrubs were seen
 source: https://www.easterisland.travel/easter-island-facts-and-info/history/ship-logs-and-journals/james-cook-1774/*
 
-![[img_easter_island_2025_003.png]]
-
-
-![[img_easter_island_2025_004.png]]
-1776 - _A View of the Monuments of Easter Island [Rapa Nui]_, oil on canvas, by William Hodges, ca 1776
+[carousel]
 
 ![[img_easter_island_2025_005.png]]
 *Engraving (by James Heath, after an original drawing by Gaspard Duche de Vancy) depicts European explorers as they measure and record statues on the Polynesian island of Easter Island, 1786*
 
+![[img_easter_island_2025_004.png]]
+*1776 - A View of the Monuments of Easter Island [Rapa Nui], oil on canvas, by William Hodges, ca 1776*
+
 ![[img_easter_island_2025_006.png]]
+*Engraving by William Woollett (1735–23 May 1785) after the original drawing by William Hodges RA (1744–1797)*
 
-About a dozen Moai have been removed from the island and remain overseas, though some might be replicas or fragments.
+[/carousel]
 
-# Facts
-
+About a dozen Moai have been removed from the island and remain overseas, though some might be replicas or fragments. The most famous oversees moai is Hoa Hakananai'a, taken by the British and in 1868 and now in display in the British Museum in London.

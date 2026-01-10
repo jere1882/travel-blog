@@ -15,51 +15,86 @@ tags:
   - england
 main_image: img_cambridge_2022_015.jpeg
 ---
-## Cambdrige : Day Trip from London
+# Cambdrige : The Perfect Day Trip from London
 
+I probably first heard about Cambridge when I was a teenager. Back then, the name Cambridge University appeared on the covers of our English textbooks, and the Cambridge English exams were the standard for foreign students learning the language.
 
-I probably first heard about Cambridge when I was a teenager. Back then, Cambridge University’s name appeared on the covers of our English textbooks, and the _Cambridge English_ exams were popular among young foreign students learning the language.
+Fast forward a decade, and I finally found myself there on a memorable day trip from London. The city felt like stepping into a different reality: immaculate college courtyards, spires rising above the river, and medieval buildings that seemed almost untouched by time.
 
-Fast forward a decade, and I finally found myself there, visiting on a day trip from London. The city felt like stepping into a fairytale: pristine college courtyards, spires rising above the river, and medieval buildings that seemed untouched by time. It was a busy day packed with beauty, history, and that unmistakable university magic that defines Cambridge.
+Students moved through the city going about their daily routines, seemingly unaware that they were studying at one of the most prestigious, expensive, and beautiful universities in the world. Cambridge somehow manages to blend an ancient institution centuries old with the energy of new generations. It was a busy day, filled with history, grand architecture, and that unmistakable university magic that defines the city.
 
+![[img_cambridge_2022_016.jpeg]]
+*Front Court of King's College, with view of Porter's Gate*
 
-![[img_cambridge_2022_040.png]]
+[content_table]
 
-## Itinerary
-
-### Getting to Cambridge
+# Getting to Cambridge
 
 Joined by my friend Aldana, I purchased an open-return ticket from London's King's Cross to Cambridge Station at just 19.50 GBP. The fare (super off peak return) is extremely cheap for UK standards, and seems to be only available during weekends. In as little as 49 minutes we were at Cambridge Station, fuelled by a delicious cappuccino and ready to explore!  
 
 ![[img_cambridge_2022_001.jpeg]]
-### The FitzWilliam Museum
 
-The Fitzwilliam Museum is the art and antiquities museum of the **University of Cambridge**, founded in 1816 when Richard FitzWilliam bequeathed his art collection, library and funds to the university. 
+> 💡 You can buy the tickets in advance using e.g. the LNER app.
 
-The museum holds over 500,000 objects from ancient Egypt and Greece to modern and contemporary art. Entry to the museum is free. Here are my highlights:
+# Main Attractions
 
-![[img_cambridge_2022_002.jpeg]]
+The city is quite walkable and compact. We strolled around hitting the main landmarks, which I collected in this map:
+
+![[img_cambridge_2022_040.png]]
+*The river Cam, on the West side of this map, gives name to the city*
+
+In the following subsections I'll describe one by one the highlights of our visit.
+
+## The FitzWilliam Museum
+
+The Fitzwilliam Museum is the art and antiquities museum of the University of Cambridge, founded in 1816 when Richard FitzWilliam bequeathed his art collection, library and funds to the university. 
+
+The museum holds over 500,000 objects from ancient Egypt and Greece to modern and contemporary art. Entry to the museum is free. I'm a history buff, so I enjoyed quite a lot the ancient artifacts on display. You can easily spend hours here, here is my selection of the best exhibits:
+
+> 💡 Entry to the Fitzwilliam Museum is free. Even if you are not a fan of museums, it's really worth a quick stop.
+
+### Medieval weapons
+
+[carousel]
 
 ![[img_cambridge_2022_003.jpeg]]
-*Medieval weapons and armour*
+*Medieval weapons and armour exhibit*
+
+![[img_cambridge_2022_002.jpeg]]
+*Medieval weapons and armour exhibit*
+
+[/carousel]
+
+### Roman
+
 ![[img_cambridge_2022_041.png]]
 *Antinous as the god Dionysos (~AD 130)*
 
+This 2000-year mosaic blew my mind, it's incredible that such an artpiece is kept intact:
+
 ![[img_cambridge_2022_004.jpeg]]
-*Roman mosaic depicting a garden scene, found in Baiae (southern Italy). 1st Century*
+*Roman mosaic depicting a garden scene, found in Baiae (southern Italy). 1st Century.*
 
-![[img_cambridge_2022_005.jpeg]]
-![[img_cambridge_2022_006.jpeg]]
+### Medieval Manuscripts
 
-![[img_cambridge_2022_007.jpeg]]
-*The Neoclassicial building is an attraction on its own*
+I always enjoy browsing exhibits about medieval texts and illuminated manuscripts.
+
+[carousel]
+
 ![[img_cambridge_2022_008.jpeg]]
 *A medieval book illustrating the relationship between the human body and the astrological signs. Each zodiac sign was believed to influence a part of the body.*
+
 ![[img_cambridge_2022_009.jpeg]]
+
 ![[img_cambridge_2022_042.png]]
 *Albrecht Dürer's work "The World as a Sphere" is the first known printed map to depict the Earth as a sphere, created in 1515 in collaboration with astronomer Johann Stabius*
 
-### Colleges
+![[img_cambridge_2022_007.jpeg]]
+*The Neoclassicial building is an attraction on its own*
+
+[/carousel]
+
+## A City of Colleges
 
 The main allure of the city is to visit the many colleges that constitute Cambridge University. Cambridge University is a collegiate university, meaning it’s made up of a federation of individual colleges, each with its own history, architecture, and traditions.
 
@@ -67,25 +102,41 @@ The 31 member colleges are self-governing institutions within the university.
 
 The university institution handles: exams, teaching core courses, exams, research, degrees. The colleges handle: living, accommodation, mentoring, supervisions and social life.
 
-#### Pembroke College
+> 💡 Most colleges charge a modest fee for entering the campus and walking around. Opening hours vary between colleges, and they are often closed a few days a week. If you want to visit a particular college, make sure you check opening times.
+
+Visiting too many colleges is a little overwhelming and repetitive. Personally, I think it's enough to visit the main ones in detail (King's College, St John's College), and only have a quick peek at the campuses of the minor ones as you encounter them on the way.
+
+## Pembroke College
 
 A relatively modest college compared to others in the city, Pembroke College was founded in 1347 by Marie de St Pol. It has around 700 students. The college feels intimate rather than grandiose.
 
+[carousel]
+
 ![[img_cambridge_2022_010.jpeg]]
+
 ![[img_cambridge_2022_011.jpeg]]
 
-#### Corpus Christi College
+[/carousel]
 
-![[img_cambridge_2022_012.jpeg]]
+## Corpus Christi College
 
 Founded in 1352, it is the only Cambridge college founded by local townspeople rather than royalty or clergy. It houses the Parker Library (which I did not visit), one of the most important collections of medieval manuscripts in the world.
 
 It's rather on the smaller, quieter side; with just about 500 students.
 
+[carousel]
+
+![[img_cambridge_2022_012.jpeg]]
+
 ![[img_cambridge_2022_013.jpeg]]
 *Beautiful entry at Trumpington Street, a few steps south of King's Parade*
 
-#### King's College
+[/carousel]
+
+## King's College
+
+![[img_cambridge_2022_015.jpeg]]
+*Front Court*
 
 One of the most famous and visually stunning colleges of the University of Cambridge and an icon of the city:
 * Founded in 1441 by King Henry VI
@@ -93,27 +144,28 @@ One of the most famous and visually stunning colleges of the University of Cambr
 * Around 1000 students
 
 ![[img_cambridge_2022_043.png]]
+*Map of the college*
+
+[carousel]
 
 ![[img_cambridge_2022_014.jpeg]]
 *King's College Chapel East facade, as seen from King's Parade - Lively and full of students*
 
-![[img_cambridge_2022_015.jpeg]]
-*Front Court*
-
-![[img_cambridge_2022_016.jpeg]]
-*Front Court, with view of Porter's Gate*
-
 ![[img_cambridge_2022_017.jpeg]]
 *Beautiful details of the Chapel*
 
-![[img_cambridge_2022_018.jpeg]]
-*Chapel interior*
+[/carousel]
 
 The Chapel is just stunning, perhaps one of the most memorable places from my visit. I remember lying down on a bench, mesmerized by the patterns in the ceiling.
 
 It is an example of late Gothic Architecture, characterized by vertical lines, large stained glass windows, intricate fan vaulting and a sense of grand symmetry. The fan vaulting is indeed the largest of its kind in the world, an engineering and artistic masterpiece.
 
 The Chapel was commissioned in 1446 by Henry VI ; and completed 70 years after in 1515.
+
+[carousel]
+
+![[img_cambridge_2022_018.jpeg]]
+*Chapel interior*
 
 ![[img_cambridge_2022_019.jpeg]]
 *The wooden choir, between the entrance in the West end and the altar in the East end. The organ was playing for the duration of our visit*
@@ -126,7 +178,10 @@ The Chapel was commissioned in 1446 by Henry VI ; and completed 70 years after i
 ![[img_cambridge_2022_022.jpeg]]
 *Beautiful stained windows behind the altar*
 ![[img_cambridge_2022_023.jpeg]]
+
 ![[img_cambridge_2022_024.jpeg]]
+
+[/carousel]
 
 The back lawn of the campus extends to River Cam itself:
 
@@ -136,7 +191,7 @@ The back lawn of the campus extends to River Cam itself:
 ![[img_cambridge_2022_026.jpeg]]
 *River Cam, alive with tourists and gondolas*
 
-#### Christ's College
+## Christ's College
 
 Founded in 1505 by Lady Margaret Beaufort, mother of King Henry VII, it is one of the prettiest and historically rich colleges in Cambridge. It has about 1000 students.
 
@@ -146,27 +201,35 @@ Fun fact: Charles Darwin studied here.
 
 We didn't stay long here, I presume that only the main yard was open to visit.
 
-#### St John's College
+## St John's College
 
 The last college in our tour of colleges, one of the oldest, largest and most prestigious colleges in Cambridge. Founded in 1511 by Lady Margaret Beaufort, mother of King Henry VII.
 
 The college has over 1100 students and academics, and each year about 170 undergraduates are admitted.  In our visit we were only able to quickly glimpse the inner courtyard, and the interior of the chapel (which was not particularly remarkable after all we had seen before).
 
-![[img_cambridge_2022_032.jpeg]]
+[carousel]
 
 ![[img_cambridge_2022_035.jpeg]]
+
+![[img_cambridge_2022_032.jpeg]]
+
 ![[img_cambridge_2022_034.jpeg]]
+
+[/carousel]
+
 ## Other Landmarks
 
 ### Lunch break at Cambridge Market Square
 
-Conveniently located halfway our walking tour of campuses was the market, offering all sorts of international fast food. I may be making this up, but I'm pretty sure I had a great Greek Gyro here.
+Conveniently located halfway our walking tour of campuses was the market, offering all sorts of international fast food. I had a delicious Greek gyro here. Nearby Market Street is fully pedestrian and has many interesting shops.
+
+[carousel]
+
+![[img_cambridge_2022_028.jpeg]]
 
 ![[img_cambridge_2022_027.jpeg]]
 
-Market Street is fully pedestrian and has many interesting shops.
-
-![[img_cambridge_2022_028.jpeg]]
+[/carousel]
 
 ### The Round Church
 
@@ -195,19 +258,20 @@ The wooden footbridge spans the River Cam in Cambridge, England. It's located at
 
 ![[img_cambridge_2022_038.jpeg]]
 
-![[img_cambridge_2022_036.jpeg]]
 ### Corpus Clock
 
 Also known as Chronophage ("time eater"), this golden clock is located outside Corpus Christi College. It was unveiled in 2008 by Stephen Hawking, and  you'll quickly notice a rather ugly creature (a cricket perhaps), which symbolises time devouring itself as it passes.
 
 I didn't like it, and I didn't feel inspired in any way, which is supposed to be the point of the whole contraption. 
 
-### Sunset
+# Final Thoughts
 
-We caught a beautiful sunset view from the window of our train ride back to London.
+Cambridge is one of the easiest and most rewarding day trips from London. With fast and affordable train connections, a compact walkable centre, and world-class sights (from the Fitzwilliam Museum to the grand King’s College Chapel) it’s a perfect blend of history, architecture, and student life. Whether you’re an architecture lover, a history enthusiast, or just curious to see one of the world’s great universities, Cambridge is a must on any UK itinerary.
 
 ![[img_cambridge_2022_039.jpeg]]
-## A brief history of Cambridge
+*We caught a beautiful sunset view from the window of our train ride back to London.*
+
+# Context: A brief history of Cambridge
 
 Located on the River Cam in easter England, 80 kilometres North of London, Cambridge has a story that stretches back nearly **two thousand** years.
 
@@ -250,6 +314,3 @@ In a way, Cambridge university originated as a byproduct of Oxford. Around **120
 	* Scholarships and fee waivers area available
 * A student from any school in the UK can apply, provided they meet the high academic standards (predicted grades, exams, entrance assessments, interviews)
 * Competition is extremely strong
-# Conclusion
-
-Cambridge is one of the easiest and most rewarding day trips from London. With fast and affordable train connections, a compact walkable centre, and world-class sights — from the Fitzwilliam Museum to the grand King’s College Chapel — it’s a perfect blend of history, architecture, and student life. Whether you’re an architecture lover, a history enthusiast, or just curious to see one of the world’s great universities, Cambridge is a must on any UK itinerary.
