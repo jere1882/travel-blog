@@ -13,6 +13,7 @@ Usage:
 
 import cloudinary
 import cloudinary.api
+import json
 import os
 import sys
 from pathlib import Path
@@ -30,7 +31,15 @@ cloudinary.config(
 )
 
 ARCHIVE_PATH = SCRIPT_DIR.parent / 'travel_atlas' / 'travel_archive'
+MANIFEST_PATH = SCRIPT_DIR.parent / 'website' / 'src' / 'data' / 'image_manifest.json'
 IMAGE_EXTENSIONS = {'.jpg', '.jpeg', '.png', '.JPG', '.JPEG', '.PNG'}
+
+
+def load_manifest() -> dict:
+    """Load existing manifest or return empty dict."""
+    if MANIFEST_PATH.exists():
+        return json.loads(MANIFEST_PATH.read_text())
+    return {}
 
 
 def check_image_exists(public_id: str) -> bool:
@@ -46,7 +55,7 @@ def check_image_exists(public_id: str) -> bool:
         return False
 
 
-def check_folder(folder: Path):
+def check_folder(folder: Path, manifest: dict):
     """Check all images in a folder."""
     folder_name = folder.name
     print(f"\n[{folder_name}]")
@@ -62,16 +71,28 @@ def check_folder(folder: Path):
         return 0, 0
     
     missing = []
-    existing = []
+    existing_in_manifest = []
+    existing_in_cloudinary = []
+    need_api_check = []
     
     for img_path in images:
-        # Construct public_id as Cloudinary would have it
+        # Construct manifest key and public_id
+        manifest_key = f"{folder_name}/{img_path.name}"
         public_id = f"travel_atlas/{folder_name}/{img_path.stem}"
         
-        if check_image_exists(public_id):
-            existing.append(img_path.name)
+        # First check manifest
+        if manifest_key in manifest:
+            existing_in_manifest.append(img_path.name)
         else:
-            missing.append(img_path.name)
+            # Not in manifest, need to check Cloudinary API
+            need_api_check.append((img_path.name, public_id))
+    
+    # Check Cloudinary API only for images not in manifest
+    for img_name, public_id in need_api_check:
+        if check_image_exists(public_id):
+            existing_in_cloudinary.append(img_name)
+        else:
+            missing.append(img_name)
     
     # Report results
     if missing:
@@ -79,13 +100,16 @@ def check_folder(folder: Path):
         for img in missing:
             print(f"    - {img}")
     
-    if existing:
-        print(f"  ✓ Already in Cloudinary ({len(existing)})")
+    total_existing = len(existing_in_manifest) + len(existing_in_cloudinary)
+    if existing_in_manifest:
+        print(f"  ✓ In manifest ({len(existing_in_manifest)}) - should be uploaded")
+    if existing_in_cloudinary:
+        print(f"  ✓ Verified in Cloudinary ({len(existing_in_cloudinary)})")
     
     if not missing:
-        print(f"  ✓ All {len(existing)} images are in Cloudinary")
+        print(f"  ✓ All {len(images)} images are tracked/uploaded")
     
-    return len(missing), len(existing)
+    return len(missing), total_existing
 
 
 def main():
@@ -108,7 +132,12 @@ def main():
     print(f"Cloud Name: {os.environ.get('CLOUDINARY_CLOUD_NAME')}")
     print(f"Archive Path: {ARCHIVE_PATH}")
     print()
-    print("Checking Cloudinary API directly (no uploads)...")
+    print("Checking manifest first, then Cloudinary API for untracked images...")
+    print()
+    
+    # Load manifest
+    manifest = load_manifest()
+    print(f"Loaded manifest with {len(manifest)} entries")
     print()
     
     total_missing = 0
@@ -121,7 +150,7 @@ def main():
             print(f"ERROR: Folder not found: {folder}")
             sys.exit(1)
         
-        missing, existing = check_folder(folder)
+        missing, existing = check_folder(folder, manifest)
         total_missing += missing
         total_existing += existing
     else:
@@ -130,7 +159,7 @@ def main():
         total_folders = len(folders)
         
         for folder_idx, folder in enumerate(folders, 1):
-            missing, existing = check_folder(folder)
+            missing, existing = check_folder(folder, manifest)
             total_missing += missing
             total_existing += existing
     
